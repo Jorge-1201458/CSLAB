@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Allocations="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Allocations" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks" xmlns:PortsAndFlows="http://www.eclipse.org/papyrus/sysml/1.6/SysML/PortsAndFlows" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Allocations http://www.eclipse.org/papyrus/sysml/1.6/SysML#//allocations http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML/PortsAndFlows http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements">
+  <uml:Model xmi:id="_Bo7dgLZbEe-DAcQOxVBE9A" name="Smart Lighting and Heating Systems">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_BuD1ILZbEe-DAcQOxVBE9A">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_BuO0QLZbEe-DAcQOxVBE9A">
+      <importedPackage xmi:type="uml:Package" href="pathmap://SysML16_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_ngURsLZhEe-bsckTw542Vw" name="1 Problem Domain">
+      <packagedElement xmi:type="uml:Package" xmi:id="_pRGS0LZhEe-bsckTw542Vw" name="1 Black Box">
+        <packagedElement xmi:type="uml:Package" xmi:id="_sLCUYLZhEe-bsckTw542Vw" name="1 Stakeholder Needs">
+          <packagedElement xmi:type="uml:Class" xmi:id="_EA59ULZiEe-bsckTw542Vw" name="User Needs">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_JTusYLZjEe-bsckTw542Vw" name="Automated Lighting Control"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_J7mksLZjEe-bsckTw542Vw" name="Automated Heating Control"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_KYO2ULZjEe-bsckTw542Vw" name="User Interface"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_K1PicLZjEe-bsckTw542Vw" name="Hazard Mitigation"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_LUqCULZjEe-bsckTw542Vw" name="Notification System"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_MNr8ELZjEe-bsckTw542Vw" name="WSN Network"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_YQ3ZELZuEe-bsckTw542Vw" name="2 System Context">
+          <packagedElement xmi:type="uml:Class" xmi:id="_cEA6kLZuEe-bsckTw542Vw" name="System in Use">
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_uJQosLZuEe-bsckTw542Vw" name="Property1" type="_xaPRQLZuEe-bsckTw542Vw" aggregation="composite"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_9xVJwLZuEe-bsckTw542Vw" name="Property2" type="_-qj30LZuEe-bsckTw542Vw" aggregation="composite"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="__Q1NoLZuEe-bsckTw542Vw" name="Property3" type="_ADbvQLZvEe-bsckTw542Vw" aggregation="composite"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_J8BlALZvEe-bsckTw542Vw" name="Property4" type="_L3tOkLZvEe-bsckTw542Vw" aggregation="composite"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_NEiOELZvEe-bsckTw542Vw" name="Property5" type="_Om28cLZvEe-bsckTw542Vw" aggregation="composite"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_xaPRQLZuEe-bsckTw542Vw" name="Room Control Unit"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_-qj30LZuEe-bsckTw542Vw" name="Sensors"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_ADbvQLZvEe-bsckTw542Vw" name="Actuators"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_L3tOkLZvEe-bsckTw542Vw" name="Power Supply"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_Om28cLZvEe-bsckTw542Vw" name="Operator"/>
+          <packagedElement xmi:type="uml:InformationFlow" xmi:id="_aNmWELZvEe-bsckTw542Vw" name="Power" informationSource="_J8BlALZvEe-bsckTw542Vw" informationTarget="_uJQosLZuEe-bsckTw542Vw"/>
+          <packagedElement xmi:type="uml:InformationFlow" xmi:id="_fhQBALZvEe-bsckTw542Vw" name="Status" informationSource="_9xVJwLZuEe-bsckTw542Vw" informationTarget="_uJQosLZuEe-bsckTw542Vw"/>
+          <packagedElement xmi:type="uml:Dependency" xmi:id="_iMdqELZvEe-bsckTw542Vw" name="Control" client="_uJQosLZuEe-bsckTw542Vw" supplier="__Q1NoLZuEe-bsckTw542Vw"/>
+          <packagedElement xmi:type="uml:InformationFlow" xmi:id="_pODdgLZvEe-bsckTw542Vw" name="Status" informationSource="__Q1NoLZuEe-bsckTw542Vw" informationTarget="_uJQosLZuEe-bsckTw542Vw"/>
+          <packagedElement xmi:type="uml:InformationFlow" xmi:id="_2PCnkLZvEe-bsckTw542Vw" name="Control" informationSource="_NEiOELZvEe-bsckTw542Vw" informationTarget="_uJQosLZuEe-bsckTw542Vw"/>
+          <packagedElement xmi:type="uml:InformationFlow" xmi:id="_5AZ78LZvEe-bsckTw542Vw" name="Status" informationSource="_uJQosLZuEe-bsckTw542Vw" informationTarget="_NEiOELZvEe-bsckTw542Vw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_JiKeELZwEe-bsckTw542Vw" name="3 Use Case">
+          <packagedElement xmi:type="uml:Activity" xmi:id="_dAxL0LZwEe-bsckTw542Vw" name="Activity1" node="_KhHkMLZxEe-bsckTw542Vw _QSMyALZxEe-bsckTw542Vw _Q0cjcLZxEe-bsckTw542Vw _Q2nGoLZxEe-bsckTw542Vw _Q4PeULZxEe-bsckTw542Vw _Q5zkkLZxEe-bsckTw542Vw _Q7MEoLZxEe-bsckTw542Vw _Q8qrULZxEe-bsckTw542Vw _Q-RN0LZxEe-bsckTw542Vw _Q_5lgLZxEe-bsckTw542Vw _RBSFkLZxEe-bsckTw542Vw _RC_80LZxEe-bsckTw542Vw _REt0ELZxEe-bsckTw542Vw _grwaYLZxEe-bsckTw542Vw _JZQ5YLZzEe-bsckTw542Vw _UHhL0LZzEe-bsckTw542Vw" group="_xJxhcLZwEe-bsckTw542Vw _x195ELZwEe-bsckTw542Vw _x6mhcLZwEe-bsckTw542Vw _x9s4wLZwEe-bsckTw542Vw">
+            <edge xmi:type="uml:ControlFlow" xmi:id="_USAPcLZxEe-bsckTw542Vw" target="_QSMyALZxEe-bsckTw542Vw" source="_KhHkMLZxEe-bsckTw542Vw"/>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_Xpd6gLZxEe-bsckTw542Vw" target="_Q0cjcLZxEe-bsckTw542Vw" source="_QSMyALZxEe-bsckTw542Vw"/>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_xSx3ALZxEe-bsckTw542Vw" target="_grwaYLZxEe-bsckTw542Vw" source="_Q0cjcLZxEe-bsckTw542Vw"/>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_x62joLZxEe-bsckTw542Vw" name="[NOT OK]" target="_Q2nGoLZxEe-bsckTw542Vw" source="_grwaYLZxEe-bsckTw542Vw"/>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_0gNcULZxEe-bsckTw542Vw" name="[OK]" target="_Q4PeULZxEe-bsckTw542Vw" source="_grwaYLZxEe-bsckTw542Vw"/>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_3lzUQLZxEe-bsckTw542Vw" target="_Q5zkkLZxEe-bsckTw542Vw" source="_Q4PeULZxEe-bsckTw542Vw"/>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_DC8F8LZyEe-bsckTw542Vw" target="_Q7MEoLZxEe-bsckTw542Vw" source="_Q5zkkLZxEe-bsckTw542Vw"/>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_Lo4BALZyEe-bsckTw542Vw" target="_Q8qrULZxEe-bsckTw542Vw" source="_Q7MEoLZxEe-bsckTw542Vw"/>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_eGl5gLZyEe-bsckTw542Vw" target="_Q-RN0LZxEe-bsckTw542Vw" source="_Q8qrULZxEe-bsckTw542Vw"/>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_GctosLZzEe-bsckTw542Vw" target="_Q_5lgLZxEe-bsckTw542Vw" source="_Q-RN0LZxEe-bsckTw542Vw"/>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_HCOJgLZzEe-bsckTw542Vw" target="_RBSFkLZxEe-bsckTw542Vw" source="_Q_5lgLZxEe-bsckTw542Vw"/>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_UyFy0LZzEe-bsckTw542Vw" target="_UHhL0LZzEe-bsckTw542Vw" source="_REt0ELZxEe-bsckTw542Vw"/>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_Voz_cLZzEe-bsckTw542Vw" target="_JZQ5YLZzEe-bsckTw542Vw" source="_RBSFkLZxEe-bsckTw542Vw"/>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_X0o90LZzEe-bsckTw542Vw" target="_RC_80LZxEe-bsckTw542Vw" source="_JZQ5YLZzEe-bsckTw542Vw"/>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_aHqwYLZzEe-bsckTw542Vw" target="_REt0ELZxEe-bsckTw542Vw" source="_RC_80LZxEe-bsckTw542Vw"/>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_czdoQLZzEe-bsckTw542Vw" target="_REt0ELZxEe-bsckTw542Vw" source="_Q2nGoLZxEe-bsckTw542Vw"/>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_uKIZILZzEe-bsckTw542Vw" name="[Continue]" inPartition="_x9s4wLZwEe-bsckTw542Vw" target="_grwaYLZxEe-bsckTw542Vw" source="_JZQ5YLZzEe-bsckTw542Vw"/>
+            <group xmi:type="uml:ActivityPartition" xmi:id="_xJxhcLZwEe-bsckTw542Vw" name="Operator" node="_KhHkMLZxEe-bsckTw542Vw"/>
+            <group xmi:type="uml:ActivityPartition" xmi:id="_x195ELZwEe-bsckTw542Vw" name="Sensors"/>
+            <group xmi:type="uml:ActivityPartition" xmi:id="_x6mhcLZwEe-bsckTw542Vw" name="Actuators"/>
+            <group xmi:type="uml:ActivityPartition" xmi:id="_x9s4wLZwEe-bsckTw542Vw" name="Room Control Unit" node="_grwaYLZxEe-bsckTw542Vw _JZQ5YLZzEe-bsckTw542Vw _UHhL0LZzEe-bsckTw542Vw" edge="_uKIZILZzEe-bsckTw542Vw"/>
+            <node xmi:type="uml:InitialNode" xmi:id="_KhHkMLZxEe-bsckTw542Vw" name="InitialNode5" outgoing="_USAPcLZxEe-bsckTw542Vw" inPartition="_xJxhcLZwEe-bsckTw542Vw"/>
+            <node xmi:type="uml:OpaqueAction" xmi:id="_QSMyALZxEe-bsckTw542Vw" name="Turn On System" incoming="_USAPcLZxEe-bsckTw542Vw" outgoing="_Xpd6gLZxEe-bsckTw542Vw"/>
+            <node xmi:type="uml:OpaqueAction" xmi:id="_Q0cjcLZxEe-bsckTw542Vw" name="Check System" incoming="_Xpd6gLZxEe-bsckTw542Vw" outgoing="_xSx3ALZxEe-bsckTw542Vw"/>
+            <node xmi:type="uml:OpaqueAction" xmi:id="_Q2nGoLZxEe-bsckTw542Vw" name="Display Error" incoming="_x62joLZxEe-bsckTw542Vw" outgoing="_czdoQLZzEe-bsckTw542Vw"/>
+            <node xmi:type="uml:OpaqueAction" xmi:id="_Q4PeULZxEe-bsckTw542Vw" name="Read Temperature" incoming="_0gNcULZxEe-bsckTw542Vw" outgoing="_3lzUQLZxEe-bsckTw542Vw"/>
+            <node xmi:type="uml:OpaqueAction" xmi:id="_Q5zkkLZxEe-bsckTw542Vw" name="Send Data to RCU" incoming="_3lzUQLZxEe-bsckTw542Vw" outgoing="_DC8F8LZyEe-bsckTw542Vw"/>
+            <node xmi:type="uml:OpaqueAction" xmi:id="_Q7MEoLZxEe-bsckTw542Vw" name="Process Data" incoming="_DC8F8LZyEe-bsckTw542Vw" outgoing="_Lo4BALZyEe-bsckTw542Vw"/>
+            <node xmi:type="uml:OpaqueAction" xmi:id="_Q8qrULZxEe-bsckTw542Vw" name="Send Command to Heater" incoming="_Lo4BALZyEe-bsckTw542Vw" outgoing="_eGl5gLZyEe-bsckTw542Vw"/>
+            <node xmi:type="uml:OpaqueAction" xmi:id="_Q-RN0LZxEe-bsckTw542Vw" name="Heat Room" incoming="_eGl5gLZyEe-bsckTw542Vw" outgoing="_GctosLZzEe-bsckTw542Vw"/>
+            <node xmi:type="uml:OpaqueAction" xmi:id="_Q_5lgLZxEe-bsckTw542Vw" name="Send Status" incoming="_GctosLZzEe-bsckTw542Vw" outgoing="_HCOJgLZzEe-bsckTw542Vw"/>
+            <node xmi:type="uml:OpaqueAction" xmi:id="_RBSFkLZxEe-bsckTw542Vw" name="Display Status" incoming="_HCOJgLZzEe-bsckTw542Vw" outgoing="_Voz_cLZzEe-bsckTw542Vw"/>
+            <node xmi:type="uml:OpaqueAction" xmi:id="_RC_80LZxEe-bsckTw542Vw" name="Turn Off System" incoming="_X0o90LZzEe-bsckTw542Vw" outgoing="_aHqwYLZzEe-bsckTw542Vw"/>
+            <node xmi:type="uml:OpaqueAction" xmi:id="_REt0ELZxEe-bsckTw542Vw" name="Stop System" incoming="_aHqwYLZzEe-bsckTw542Vw _czdoQLZzEe-bsckTw542Vw" outgoing="_UyFy0LZzEe-bsckTw542Vw"/>
+            <node xmi:type="uml:DecisionNode" xmi:id="_grwaYLZxEe-bsckTw542Vw" name="DecisionNode25" incoming="_xSx3ALZxEe-bsckTw542Vw _uKIZILZzEe-bsckTw542Vw" outgoing="_x62joLZxEe-bsckTw542Vw _0gNcULZxEe-bsckTw542Vw" inPartition="_x9s4wLZwEe-bsckTw542Vw"/>
+            <node xmi:type="uml:DecisionNode" xmi:id="_JZQ5YLZzEe-bsckTw542Vw" name="DecisionNode35" incoming="_Voz_cLZzEe-bsckTw542Vw" outgoing="_X0o90LZzEe-bsckTw542Vw _uKIZILZzEe-bsckTw542Vw" inPartition="_x9s4wLZwEe-bsckTw542Vw"/>
+            <node xmi:type="uml:ActivityFinalNode" xmi:id="_UHhL0LZzEe-bsckTw542Vw" name="ActivityFinalNode36" incoming="_UyFy0LZzEe-bsckTw542Vw" inPartition="_x9s4wLZwEe-bsckTw542Vw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Activity" xmi:id="_46MpcLZzEe-bsckTw542Vw" name="Activity2" node="_PkDyQLZ0Ee-bsckTw542Vw _Qbl3MLZ0Ee-bsckTw542Vw _QdpFoLZ0Ee-bsckTw542Vw _QfEpALZ0Ee-bsckTw542Vw _QgdJELZ0Ee-bsckTw542Vw _Qh23QLZ0Ee-bsckTw542Vw _QjRzkLZ0Ee-bsckTw542Vw _Qkjl8LZ0Ee-bsckTw542Vw _QmGeELZ0Ee-bsckTw542Vw _QnqkULZ0Ee-bsckTw542Vw _QpH84LZ0Ee-bsckTw542Vw _QqxisLZ0Ee-bsckTw542Vw _QsfZ8LZ0Ee-bsckTw542Vw _TiRUQLZ0Ee-bsckTw542Vw _SfzVMLZ1Ee-bsckTw542Vw _EU45MLZ2Ee-bsckTw542Vw _gRnp0LZ2Ee-bsckTw542Vw _251M0LZ2Ee-bsckTw542Vw _THYnsLZ3Ee-bsckTw542Vw _fmaUMLZ3Ee-bsckTw542Vw" group="_-QlfULZzEe-bsckTw542Vw _-sbt0LZzEe-bsckTw542Vw _-v3cULZzEe-bsckTw542Vw _-zHkoLZzEe-bsckTw542Vw">
+            <edge xmi:type="uml:ControlFlow" xmi:id="_VNCM8LZ0Ee-bsckTw542Vw" target="_PkDyQLZ0Ee-bsckTw542Vw" source="_TiRUQLZ0Ee-bsckTw542Vw"/>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_nO_9kLZ0Ee-bsckTw542Vw" target="_Qbl3MLZ0Ee-bsckTw542Vw" source="_PkDyQLZ0Ee-bsckTw542Vw"/>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_vEVFoLZ1Ee-bsckTw542Vw" name="[Not OK]" target="_QdpFoLZ0Ee-bsckTw542Vw" source="_SfzVMLZ1Ee-bsckTw542Vw"/>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_AGtokLZ2Ee-bsckTw542Vw" target="_SfzVMLZ1Ee-bsckTw542Vw" source="_Qbl3MLZ0Ee-bsckTw542Vw"/>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_jzyJALZ2Ee-bsckTw542Vw" name="[OK]" target="_QfEpALZ0Ee-bsckTw542Vw" source="_SfzVMLZ1Ee-bsckTw542Vw"/>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_kT4lYLZ2Ee-bsckTw542Vw" target="_QgdJELZ0Ee-bsckTw542Vw" source="_QfEpALZ0Ee-bsckTw542Vw"/>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_lIEbYLZ2Ee-bsckTw542Vw" target="_Qh23QLZ0Ee-bsckTw542Vw" source="_QgdJELZ0Ee-bsckTw542Vw"/>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_lvC70LZ2Ee-bsckTw542Vw" target="_EU45MLZ2Ee-bsckTw542Vw" source="_Qh23QLZ0Ee-bsckTw542Vw"/>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_mqDLgLZ2Ee-bsckTw542Vw" name="[Light Not OK]" target="_QjRzkLZ0Ee-bsckTw542Vw" source="_EU45MLZ2Ee-bsckTw542Vw"/>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_oBSrQLZ2Ee-bsckTw542Vw" name="[Light OK]" target="_QfEpALZ0Ee-bsckTw542Vw" source="_EU45MLZ2Ee-bsckTw542Vw"/>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_qk4pYLZ2Ee-bsckTw542Vw" target="_gRnp0LZ2Ee-bsckTw542Vw" source="_QjRzkLZ0Ee-bsckTw542Vw"/>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_rPoPgLZ2Ee-bsckTw542Vw" name="[Less Light]" target="_Qkjl8LZ0Ee-bsckTw542Vw" source="_gRnp0LZ2Ee-bsckTw542Vw"/>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_sBB3QLZ2Ee-bsckTw542Vw" name="[More Light]" target="_QmGeELZ0Ee-bsckTw542Vw" source="_gRnp0LZ2Ee-bsckTw542Vw"/>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_33K-0LZ2Ee-bsckTw542Vw" target="_251M0LZ2Ee-bsckTw542Vw" source="_QmGeELZ0Ee-bsckTw542Vw"/>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_7vCBMLZ2Ee-bsckTw542Vw" name="[OK]" target="_QnqkULZ0Ee-bsckTw542Vw" source="_251M0LZ2Ee-bsckTw542Vw"/>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_BA2gILZ3Ee-bsckTw542Vw" target="_QnqkULZ0Ee-bsckTw542Vw" source="_Qkjl8LZ0Ee-bsckTw542Vw"/>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_H1rp8LZ3Ee-bsckTw542Vw" name="[More Light]" target="_QpH84LZ0Ee-bsckTw542Vw" source="_251M0LZ2Ee-bsckTw542Vw"/>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_ZzprYLZ3Ee-bsckTw542Vw" target="_THYnsLZ3Ee-bsckTw542Vw" source="_QnqkULZ0Ee-bsckTw542Vw"/>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_hDdhALZ3Ee-bsckTw542Vw" target="_fmaUMLZ3Ee-bsckTw542Vw" source="_QsfZ8LZ0Ee-bsckTw542Vw"/>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_hnKrALZ3Ee-bsckTw542Vw" target="_QqxisLZ0Ee-bsckTw542Vw" source="_THYnsLZ3Ee-bsckTw542Vw"/>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_jGS7cLZ3Ee-bsckTw542Vw" target="_QsfZ8LZ0Ee-bsckTw542Vw" source="_QqxisLZ0Ee-bsckTw542Vw"/>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_k46IkLZ3Ee-bsckTw542Vw" name="[Continue]" target="_QfEpALZ0Ee-bsckTw542Vw" source="_THYnsLZ3Ee-bsckTw542Vw"/>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_3lCQgLZ3Ee-bsckTw542Vw" target="_QnqkULZ0Ee-bsckTw542Vw" source="_QpH84LZ0Ee-bsckTw542Vw"/>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_90Qy4LZ3Ee-bsckTw542Vw" target="_QsfZ8LZ0Ee-bsckTw542Vw" source="_QdpFoLZ0Ee-bsckTw542Vw"/>
+            <group xmi:type="uml:ActivityPartition" xmi:id="_-QlfULZzEe-bsckTw542Vw" name="Operator" node="_TiRUQLZ0Ee-bsckTw542Vw"/>
+            <group xmi:type="uml:ActivityPartition" xmi:id="_-sbt0LZzEe-bsckTw542Vw" name="Sensors"/>
+            <group xmi:type="uml:ActivityPartition" xmi:id="_-v3cULZzEe-bsckTw542Vw" name="Actuators"/>
+            <group xmi:type="uml:ActivityPartition" xmi:id="_-zHkoLZzEe-bsckTw542Vw" name="Room Control Unit" node="_SfzVMLZ1Ee-bsckTw542Vw _EU45MLZ2Ee-bsckTw542Vw _gRnp0LZ2Ee-bsckTw542Vw _251M0LZ2Ee-bsckTw542Vw _THYnsLZ3Ee-bsckTw542Vw _fmaUMLZ3Ee-bsckTw542Vw"/>
+            <node xmi:type="uml:OpaqueAction" xmi:id="_PkDyQLZ0Ee-bsckTw542Vw" name="Turn On System" incoming="_VNCM8LZ0Ee-bsckTw542Vw" outgoing="_nO_9kLZ0Ee-bsckTw542Vw"/>
+            <node xmi:type="uml:OpaqueAction" xmi:id="_Qbl3MLZ0Ee-bsckTw542Vw" name="Check System" incoming="_nO_9kLZ0Ee-bsckTw542Vw" outgoing="_AGtokLZ2Ee-bsckTw542Vw"/>
+            <node xmi:type="uml:OpaqueAction" xmi:id="_QdpFoLZ0Ee-bsckTw542Vw" name="Display Error" incoming="_vEVFoLZ1Ee-bsckTw542Vw" outgoing="_90Qy4LZ3Ee-bsckTw542Vw"/>
+            <node xmi:type="uml:OpaqueAction" xmi:id="_QfEpALZ0Ee-bsckTw542Vw" name="Read Light" incoming="_jzyJALZ2Ee-bsckTw542Vw _oBSrQLZ2Ee-bsckTw542Vw _k46IkLZ3Ee-bsckTw542Vw" outgoing="_kT4lYLZ2Ee-bsckTw542Vw"/>
+            <node xmi:type="uml:OpaqueAction" xmi:id="_QgdJELZ0Ee-bsckTw542Vw" name="Send Data to RCU" incoming="_kT4lYLZ2Ee-bsckTw542Vw" outgoing="_lIEbYLZ2Ee-bsckTw542Vw"/>
+            <node xmi:type="uml:OpaqueAction" xmi:id="_Qh23QLZ0Ee-bsckTw542Vw" name="Process Data" incoming="_lIEbYLZ2Ee-bsckTw542Vw" outgoing="_lvC70LZ2Ee-bsckTw542Vw"/>
+            <node xmi:type="uml:OpaqueAction" xmi:id="_QjRzkLZ0Ee-bsckTw542Vw" name="Send Command to Controller" incoming="_mqDLgLZ2Ee-bsckTw542Vw" outgoing="_qk4pYLZ2Ee-bsckTw542Vw"/>
+            <node xmi:type="uml:OpaqueAction" xmi:id="_Qkjl8LZ0Ee-bsckTw542Vw" name="Close Blinds" incoming="_rPoPgLZ2Ee-bsckTw542Vw" outgoing="_BA2gILZ3Ee-bsckTw542Vw"/>
+            <node xmi:type="uml:OpaqueAction" xmi:id="_QmGeELZ0Ee-bsckTw542Vw" name="Open Blinds" incoming="_sBB3QLZ2Ee-bsckTw542Vw" outgoing="_33K-0LZ2Ee-bsckTw542Vw"/>
+            <node xmi:type="uml:OpaqueAction" xmi:id="_QnqkULZ0Ee-bsckTw542Vw" name="Display Status" incoming="_7vCBMLZ2Ee-bsckTw542Vw _BA2gILZ3Ee-bsckTw542Vw _3lCQgLZ3Ee-bsckTw542Vw" outgoing="_ZzprYLZ3Ee-bsckTw542Vw"/>
+            <node xmi:type="uml:OpaqueAction" xmi:id="_QpH84LZ0Ee-bsckTw542Vw" name="Turn On Lights" incoming="_H1rp8LZ3Ee-bsckTw542Vw" outgoing="_3lCQgLZ3Ee-bsckTw542Vw"/>
+            <node xmi:type="uml:OpaqueAction" xmi:id="_QqxisLZ0Ee-bsckTw542Vw" name="Turn Off System" incoming="_hnKrALZ3Ee-bsckTw542Vw" outgoing="_jGS7cLZ3Ee-bsckTw542Vw"/>
+            <node xmi:type="uml:OpaqueAction" xmi:id="_QsfZ8LZ0Ee-bsckTw542Vw" name="Shut Down System" incoming="_jGS7cLZ3Ee-bsckTw542Vw _90Qy4LZ3Ee-bsckTw542Vw" outgoing="_hDdhALZ3Ee-bsckTw542Vw"/>
+            <node xmi:type="uml:InitialNode" xmi:id="_TiRUQLZ0Ee-bsckTw542Vw" name="InitialNode20" outgoing="_VNCM8LZ0Ee-bsckTw542Vw" inPartition="_-QlfULZzEe-bsckTw542Vw"/>
+            <node xmi:type="uml:DecisionNode" xmi:id="_SfzVMLZ1Ee-bsckTw542Vw" name="DecisionNode23" incoming="_AGtokLZ2Ee-bsckTw542Vw" outgoing="_vEVFoLZ1Ee-bsckTw542Vw _jzyJALZ2Ee-bsckTw542Vw" inPartition="_-zHkoLZzEe-bsckTw542Vw"/>
+            <node xmi:type="uml:DecisionNode" xmi:id="_EU45MLZ2Ee-bsckTw542Vw" name="DecisionNode26" incoming="_lvC70LZ2Ee-bsckTw542Vw" outgoing="_mqDLgLZ2Ee-bsckTw542Vw _oBSrQLZ2Ee-bsckTw542Vw" inPartition="_-zHkoLZzEe-bsckTw542Vw"/>
+            <node xmi:type="uml:DecisionNode" xmi:id="_gRnp0LZ2Ee-bsckTw542Vw" name="DecisionNode27" incoming="_qk4pYLZ2Ee-bsckTw542Vw" outgoing="_rPoPgLZ2Ee-bsckTw542Vw _sBB3QLZ2Ee-bsckTw542Vw" inPartition="_-zHkoLZzEe-bsckTw542Vw"/>
+            <node xmi:type="uml:DecisionNode" xmi:id="_251M0LZ2Ee-bsckTw542Vw" name="DecisionNode37" incoming="_33K-0LZ2Ee-bsckTw542Vw" outgoing="_7vCBMLZ2Ee-bsckTw542Vw _H1rp8LZ3Ee-bsckTw542Vw" inPartition="_-zHkoLZzEe-bsckTw542Vw"/>
+            <node xmi:type="uml:DecisionNode" xmi:id="_THYnsLZ3Ee-bsckTw542Vw" name="DecisionNode42" incoming="_ZzprYLZ3Ee-bsckTw542Vw" outgoing="_hnKrALZ3Ee-bsckTw542Vw _k46IkLZ3Ee-bsckTw542Vw" inPartition="_-zHkoLZzEe-bsckTw542Vw"/>
+            <node xmi:type="uml:ActivityFinalNode" xmi:id="_fmaUMLZ3Ee-bsckTw542Vw" name="ActivityFinalNode44" incoming="_hDdhALZ3Ee-bsckTw542Vw" inPartition="_-zHkoLZzEe-bsckTw542Vw"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_JhKe4LZ4Ee-bsckTw542Vw" name="4 Measures Of Effectiveness">
+          <packagedElement xmi:type="uml:Class" xmi:id="_luPYoLZ4Ee-bsckTw542Vw" name="MoEs Holder">
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_qnhbwLZ4Ee-bsckTw542Vw" name="Temperature" type="_YD5vkLZ4Ee-bsckTw542Vw"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_sFE-4LZ4Ee-bsckTw542Vw" name="Power" type="_73rU8LZ4Ee-bsckTw542Vw"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_HNcTULZ5Ee-bsckTw542Vw" name="Light Intensity" type="_2Nbu8LZ4Ee-bsckTw542Vw"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_KGe9ALZ5Ee-bsckTw542Vw" name="Response Time" type="_Noj8oLZ5Ee-bsckTw542Vw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_oz3FwLZ4Ee-bsckTw542Vw" name="Room Control Unit">
+            <generalization xmi:type="uml:Generalization" xmi:id="_l7gjILZ5Ee-bsckTw542Vw" general="_luPYoLZ4Ee-bsckTw542Vw"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_LsUH0LZ4Ee-bsckTw542Vw" name="5 Types">
+          <packagedElement xmi:type="uml:Stereotype" xmi:id="_UCLmkLZ4Ee-bsckTw542Vw" name="&lt;&lt;moes>>">
+            <nestedClassifier xmi:type="uml:DataType" xmi:id="_YD5vkLZ4Ee-bsckTw542Vw" name="Kg"/>
+            <nestedClassifier xmi:type="uml:DataType" xmi:id="_2Nbu8LZ4Ee-bsckTw542Vw" name="Lumens"/>
+            <nestedClassifier xmi:type="uml:DataType" xmi:id="_73rU8LZ4Ee-bsckTw542Vw" name="Kj"/>
+            <nestedClassifier xmi:type="uml:DataType" xmi:id="_Noj8oLZ5Ee-bsckTw542Vw" name="ms"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_q4tJ0LZhEe-bsckTw542Vw" name="2 White Box"/>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_BqnfkLZbEe-DAcQOxVBE9A">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BqsYELZbEe-DAcQOxVBE9A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Bt75ULZbEe-DAcQOxVBE9A">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Bt75UbZbEe-DAcQOxVBE9A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//activities"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Activities"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_BuAKwLZbEe-DAcQOxVBE9A">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BuAKwbZbEe-DAcQOxVBE9A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//allocations"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Allocations"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_BuAKwrZbEe-DAcQOxVBE9A">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BuAx0LZbEe-DAcQOxVBE9A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_BuAx0bZbEe-DAcQOxVBE9A">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BuAx0rZbEe-DAcQOxVBE9A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//constraintblocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ConstraintBlocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_BuBY4LZbEe-DAcQOxVBE9A">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BuBY4bZbEe-DAcQOxVBE9A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//deprecatedelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_DeprecatedElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_BuBY4rZbEe-DAcQOxVBE9A">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BuBY47ZbEe-DAcQOxVBE9A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//modelelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ModelElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_BuB_8LZbEe-DAcQOxVBE9A">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BuB_8bZbEe-DAcQOxVBE9A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Ports_u0026Flows"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_BuCnALZbEe-DAcQOxVBE9A">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BuCnAbZbEe-DAcQOxVBE9A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Requirements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_BuDOELZbEe-DAcQOxVBE9A">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BuDOEbZbEe-DAcQOxVBE9A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_usDBILZ4Ee-bsckTw542Vw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_usLkALZ4Ee-bsckTw542Vw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+    </profileApplication>
+  </uml:Model>
+  <Requirements:Requirement xmi:id="_EBIm0LZiEe-bsckTw542Vw" base_NamedElement="_EA59ULZiEe-bsckTw542Vw" id="SN-1" base_Class="_EA59ULZiEe-bsckTw542Vw"/>
+  <Requirements:Requirement xmi:id="_JTxIoLZjEe-bsckTw542Vw" base_NamedElement="_JTusYLZjEe-bsckTw542Vw" id="SN-1.1" text="When natural sunlight is available, the system shall adjust blinds to allow the required amount of light.&#xA;If natural sunlight is insufficient, the system shall activate artificial lighting to compensate.&#xD;&#xA;" base_Class="_JTusYLZjEe-bsckTw542Vw"/>
+  <Requirements:Requirement xmi:id="_J7oZ4LZjEe-bsckTw542Vw" base_NamedElement="_J7mksLZjEe-bsckTw542Vw" id="SN-1.2" text="The system shall control the heating in the office using smart heaters." base_Class="_J7mksLZjEe-bsckTw542Vw"/>
+  <Requirements:Requirement xmi:id="_KYQrgLZjEe-bsckTw542Vw" base_NamedElement="_KYO2ULZjEe-bsckTw542Vw" id="SN-1.3" text="The system shall provide a user interface that allows office occupants to configure their preferences for lighting and temperature, and manually change the status of blinds, lights, and heaters." base_Class="_KYO2ULZjEe-bsckTw542Vw"/>
+  <Requirements:Requirement xmi:id="_K1RXoLZjEe-bsckTw542Vw" base_NamedElement="_K1PicLZjEe-bsckTw542Vw" id="SN-1.4" text="The system shall include measures to prevent or mitigate failures by identifying malfunctioning components, providing temporary fixes, and providing long-term fixes.&#xA;" base_Class="_K1PicLZjEe-bsckTw542Vw"/>
+  <Requirements:Requirement xmi:id="_LUr3gLZjEe-bsckTw542Vw" base_NamedElement="_LUqCULZjEe-bsckTw542Vw" id="SN-1.5" text="If the occupant's preferences are not being met, the system shall notify the occupant and indicate a potential problem with the system.&#xA;&#xA;" base_Class="_LUqCULZjEe-bsckTw542Vw"/>
+  <Requirements:Requirement xmi:id="_MNtKMLZjEe-bsckTw542Vw" base_NamedElement="_MNr8ELZjEe-bsckTw542Vw" id="SN-1.6" text="Where possible, the system shall utilize Wireless Sensor Networks (WSNs) for communication and control.&#xA;&#xA;" base_Class="_MNr8ELZjEe-bsckTw542Vw"/>
+  <Blocks:Block xmi:id="_cECvwLZuEe-bsckTw542Vw" base_Class="_cEA6kLZuEe-bsckTw542Vw"/>
+  <Blocks:Block xmi:id="_xaRGcLZuEe-bsckTw542Vw" base_Class="_xaPRQLZuEe-bsckTw542Vw"/>
+  <Blocks:Block xmi:id="_-qltALZuEe-bsckTw542Vw" base_Class="_-qj30LZuEe-bsckTw542Vw"/>
+  <Blocks:Block xmi:id="_ADdkcLZvEe-bsckTw542Vw" base_Class="_ADbvQLZvEe-bsckTw542Vw"/>
+  <Blocks:Block xmi:id="_L3vDwLZvEe-bsckTw542Vw" base_Class="_L3tOkLZvEe-bsckTw542Vw"/>
+  <Blocks:Block xmi:id="_Om4KkLZvEe-bsckTw542Vw" base_Class="_Om28cLZvEe-bsckTw542Vw"/>
+  <PortsAndFlows:ItemFlow xmi:id="_aNoyULZvEe-bsckTw542Vw" base_InformationFlow="_aNmWELZvEe-bsckTw542Vw"/>
+  <PortsAndFlows:ItemFlow xmi:id="_fhRPILZvEe-bsckTw542Vw" base_InformationFlow="_fhQBALZvEe-bsckTw542Vw"/>
+  <PortsAndFlows:ItemFlow xmi:id="_pOFSsLZvEe-bsckTw542Vw" base_InformationFlow="_pODdgLZvEe-bsckTw542Vw"/>
+  <PortsAndFlows:ItemFlow xmi:id="_2PD1sLZvEe-bsckTw542Vw" base_InformationFlow="_2PCnkLZvEe-bsckTw542Vw"/>
+  <PortsAndFlows:ItemFlow xmi:id="_5AbxILZvEe-bsckTw542Vw" base_InformationFlow="_5AZ78LZvEe-bsckTw542Vw"/>
+  <Allocations:AllocateActivityPartition xmi:id="_xJz9sLZwEe-bsckTw542Vw" base_ActivityPartition="_xJxhcLZwEe-bsckTw542Vw"/>
+  <Allocations:AllocateActivityPartition xmi:id="_x1-gILZwEe-bsckTw542Vw" base_ActivityPartition="_x195ELZwEe-bsckTw542Vw"/>
+  <Allocations:AllocateActivityPartition xmi:id="_x6nvkLZwEe-bsckTw542Vw" base_ActivityPartition="_x6mhcLZwEe-bsckTw542Vw"/>
+  <Allocations:AllocateActivityPartition xmi:id="_x9ut8LZwEe-bsckTw542Vw" base_ActivityPartition="_x9s4wLZwEe-bsckTw542Vw"/>
+  <Allocations:AllocateActivityPartition xmi:id="_-Qn7kLZzEe-bsckTw542Vw" base_ActivityPartition="_-QlfULZzEe-bsckTw542Vw"/>
+  <Allocations:AllocateActivityPartition xmi:id="_-sc78LZzEe-bsckTw542Vw" base_ActivityPartition="_-sbt0LZzEe-bsckTw542Vw"/>
+  <Allocations:AllocateActivityPartition xmi:id="_-v4qcLZzEe-bsckTw542Vw" base_ActivityPartition="_-v3cULZzEe-bsckTw542Vw"/>
+  <Allocations:AllocateActivityPartition xmi:id="_-zILsLZzEe-bsckTw542Vw" base_ActivityPartition="_-zHkoLZzEe-bsckTw542Vw"/>
+  <Blocks:ValueType xmi:id="_YD8L0LZ4Ee-bsckTw542Vw" base_DataType="_YD5vkLZ4Ee-bsckTw542Vw"/>
+  <Blocks:Block xmi:id="_luSb8LZ4Ee-bsckTw542Vw" base_Class="_luPYoLZ4Ee-bsckTw542Vw"/>
+  <Blocks:Block xmi:id="_oz468LZ4Ee-bsckTw542Vw" base_Class="_oz3FwLZ4Ee-bsckTw542Vw"/>
+  <Blocks:ValueType xmi:id="_2NeLMLZ4Ee-bsckTw542Vw" base_DataType="_2Nbu8LZ4Ee-bsckTw542Vw"/>
+  <Blocks:ValueType xmi:id="_73tKILZ4Ee-bsckTw542Vw" base_DataType="_73rU8LZ4Ee-bsckTw542Vw"/>
+  <Blocks:ValueType xmi:id="_Nolx0LZ5Ee-bsckTw542Vw" base_DataType="_Noj8oLZ5Ee-bsckTw542Vw"/>
+</xmi:XMI>

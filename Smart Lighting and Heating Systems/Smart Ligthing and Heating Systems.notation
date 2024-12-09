@@ -1,0 +1,1994 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:nattable="http://www.eclipse.org/papyrus/nattable/model" xmlns:nattableaxis="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxis" xmlns:nattableaxisconfiguration="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxisconfiguration" xmlns:nattableaxisprovider="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxisprovider" xmlns:nattableconfiguration="http://www.eclipse.org/papyrus/nattable/model/nattableconfiguration" xmlns:nattablestyle="http://www.eclipse.org/papyrus/nattable/model/table/nattablestyle" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxis http://www.eclipse.org/papyrus/nattable/model#//nattableaxis http://www.eclipse.org/papyrus/nattable/model/table/nattableaxisconfiguration http://www.eclipse.org/papyrus/nattable/model#//nattableaxisconfiguration http://www.eclipse.org/papyrus/nattable/model/table/nattableaxisprovider http://www.eclipse.org/papyrus/nattable/model#//nattableaxisprovider http://www.eclipse.org/papyrus/nattable/model/nattableconfiguration http://www.eclipse.org/papyrus/nattable/model#//nattableconfiguration http://www.eclipse.org/papyrus/nattable/model/table/nattablestyle http://www.eclipse.org/papyrus/nattable/model#//nattablestyle">
+  <nattable:Table xmi:id="_7G3agLZhEe-bsckTw542Vw" name="Stakeholder Needs" currentRowAxisProvider="_7G3ahbZhEe-bsckTw542Vw" currentColumnAxisProvider="_7G3agrZhEe-bsckTw542Vw" tableKindId="org.eclipse.papyrus.sysml16.table.requirementTree">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7G4BkLZhEe-bsckTw542Vw" source="http://www.eclipse.org/papyrus/infra/nattable/version">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7G4BkbZhEe-bsckTw542Vw" key="version" value="1.3.0"/>
+    </eAnnotations>
+    <styles xmi:type="nattablestyle:IntListValueStyle" xmi:id="_7G3agbZhEe-bsckTw542Vw" name="hiddenCategoriesByDepth">
+      <intListValue>0</intListValue>
+      <intListValue>1</intListValue>
+      <intListValue>2</intListValue>
+      <intListValue>3</intListValue>
+      <intListValue>4</intListValue>
+    </styles>
+    <context xmi:type="uml:Package" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_sLCUYLZhEe-bsckTw542Vw"/>
+    <owner xmi:type="uml:Package" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_sLCUYLZhEe-bsckTw542Vw"/>
+    <tableConfiguration xmi:type="nattableconfiguration:TableConfiguration" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirementTree.nattableconfiguration#_QpaQsF9WEeibbMBxjCBt2w"/>
+    <columnAxisProvidersHistory xmi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_7G3agrZhEe-bsckTw542Vw" description="Provides the columns of the tables with a default configuration" name="Requirements Feature Columns Provider">
+      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_7G3ag7ZhEe-bsckTw542Vw" element="property_of_stereotype:/SysML::Requirements::AbstractRequirement::id">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirementTree.nattableconfiguration#org.eclipse.papyrus.sysml16.nattable.requirementtree.stereotype.property.axis.manager"/>
+      </axis>
+      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_7G3ahLZhEe-bsckTw542Vw" element="property_of_stereotype:/SysML::Requirements::AbstractRequirement::text">
+        <styles xmi:type="nattablestyle:IntValueStyle" xmi:id="_gBxbgLZsEe-bsckTw542Vw" name="axisWidth" intValue="1134"/>
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirementTree.nattableconfiguration#org.eclipse.papyrus.sysml16.nattable.requirementtree.stereotype.property.axis.manager"/>
+      </axis>
+    </columnAxisProvidersHistory>
+    <rowAxisProvidersHistory xmi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_7G3ahbZhEe-bsckTw542Vw" description="This axis provider manages the rows, according to the wanted hierarchy" name="HierarchicalRowAxisManager" disconnectSlave="true"/>
+    <localRowHeaderAxisConfiguration xmi:type="nattableaxisconfiguration:LocalTableHeaderAxisConfiguration" xmi:id="_H41mQLZkEe-bsckTw542Vw" indexStyle="NUMERIC" displayIndex="false">
+      <styles xmi:type="nattablestyle:IntValueStyle" xmi:id="_H44pkLZkEe-bsckTw542Vw" name="rowLabelWidth" intValue="280"/>
+    </localRowHeaderAxisConfiguration>
+  </nattable:Table>
+  <notation:Diagram xmi:id="_eXtbgLZuEe-bsckTw542Vw" type="CompositeStructure" name="System in Use" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_eYwkYLZuEe-bsckTw542Vw" type="Class_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_eYyZkLZuEe-bsckTw542Vw" type="Class_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_eYyZkbZuEe-bsckTw542Vw" type="Class_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_eYyZkrZuEe-bsckTw542Vw" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_eYyZk7ZuEe-bsckTw542Vw" type="Class_StructureCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_xaa3cLZuEe-bsckTw542Vw" type="Property_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_xaa3crZuEe-bsckTw542Vw" type="Property_NameLabel"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_xaa3c7ZuEe-bsckTw542Vw" type="Property_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_xaa3dLZuEe-bsckTw542Vw" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_xaa3dbZuEe-bsckTw542Vw" type="Property_StructureCompartment">
+            <styles xmi:type="notation:TitleStyle" xmi:id="_xaa3drZuEe-bsckTw542Vw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xaa3d7ZuEe-bsckTw542Vw"/>
+          </children>
+          <styles xmi:type="notation:StringListValueStyle" xmi:id="_Q5NZkLZvEe-bsckTw542Vw" name="maskLabel">
+            <stringListValue>type</stringListValue>
+            <stringListValue>derived</stringListValue>
+          </styles>
+          <element xmi:type="uml:Property" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_uJQosLZuEe-bsckTw542Vw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xaa3cbZuEe-bsckTw542Vw" x="494" y="109"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_-qqlgLZuEe-bsckTw542Vw" type="Property_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_-qqlgrZuEe-bsckTw542Vw" type="Property_NameLabel"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_-qqlg7ZuEe-bsckTw542Vw" type="Property_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_-qqlhLZuEe-bsckTw542Vw" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_-qqlhbZuEe-bsckTw542Vw" type="Property_StructureCompartment">
+            <styles xmi:type="notation:TitleStyle" xmi:id="_-qqlhrZuEe-bsckTw542Vw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-qqlh7ZuEe-bsckTw542Vw"/>
+          </children>
+          <styles xmi:type="notation:StringListValueStyle" xmi:id="_SnfgULZvEe-bsckTw542Vw" name="maskLabel">
+            <stringListValue>type</stringListValue>
+            <stringListValue>derived</stringListValue>
+          </styles>
+          <element xmi:type="uml:Property" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_9xVJwLZuEe-bsckTw542Vw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-qqlgbZuEe-bsckTw542Vw" x="34" y="109"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_ADh14LZvEe-bsckTw542Vw" type="Property_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_ADic8LZvEe-bsckTw542Vw" type="Property_NameLabel"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_ADic8bZvEe-bsckTw542Vw" type="Property_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ADic8rZvEe-bsckTw542Vw" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_ADic87ZvEe-bsckTw542Vw" type="Property_StructureCompartment">
+            <styles xmi:type="notation:TitleStyle" xmi:id="_ADic9LZvEe-bsckTw542Vw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ADic9bZvEe-bsckTw542Vw"/>
+          </children>
+          <styles xmi:type="notation:StringListValueStyle" xmi:id="_SH2W8LZvEe-bsckTw542Vw" name="maskLabel">
+            <stringListValue>type</stringListValue>
+            <stringListValue>derived</stringListValue>
+          </styles>
+          <element xmi:type="uml:Property" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#__Q1NoLZuEe-bsckTw542Vw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ADh14bZvEe-bsckTw542Vw" x="794" y="409"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_L3z8QLZvEe-bsckTw542Vw" type="Property_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_L30jULZvEe-bsckTw542Vw" type="Property_NameLabel"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_L30jUbZvEe-bsckTw542Vw" type="Property_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_L30jUrZvEe-bsckTw542Vw" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_L30jU7ZvEe-bsckTw542Vw" type="Property_StructureCompartment">
+            <styles xmi:type="notation:TitleStyle" xmi:id="_L30jVLZvEe-bsckTw542Vw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_L30jVbZvEe-bsckTw542Vw"/>
+          </children>
+          <styles xmi:type="notation:StringListValueStyle" xmi:id="_RsYi8LZvEe-bsckTw542Vw" name="maskLabel">
+            <stringListValue>type</stringListValue>
+            <stringListValue>derived</stringListValue>
+          </styles>
+          <element xmi:type="uml:Property" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_J8BlALZvEe-bsckTw542Vw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_L3z8QbZvEe-bsckTw542Vw" x="1014" y="109"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_Om9DELZvEe-bsckTw542Vw" type="Property_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_Om9DErZvEe-bsckTw542Vw" type="Property_NameLabel"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_Om9DE7ZvEe-bsckTw542Vw" type="Property_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_Om9DFLZvEe-bsckTw542Vw" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_Om9qILZvEe-bsckTw542Vw" type="Property_StructureCompartment">
+            <styles xmi:type="notation:TitleStyle" xmi:id="_Om9qIbZvEe-bsckTw542Vw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Om9qIrZvEe-bsckTw542Vw"/>
+          </children>
+          <styles xmi:type="notation:StringListValueStyle" xmi:id="_PyJq4LZvEe-bsckTw542Vw" name="maskLabel">
+            <stringListValue>type</stringListValue>
+            <stringListValue>derived</stringListValue>
+          </styles>
+          <element xmi:type="uml:Property" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_NEiOELZvEe-bsckTw542Vw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Om9DEbZvEe-bsckTw542Vw" x="254" y="389"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_aOXyI7ZvEe-bsckTw542Vw" type="StereotypeComment">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_aOXyJLZvEe-bsckTw542Vw"/>
+          <styles xmi:type="notation:EObjectValueStyle" xmi:id="_aOXyJrZvEe-bsckTw542Vw" name="BASE_ELEMENT">
+            <eObjectValue xmi:type="uml:InformationFlow" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_aNmWELZvEe-bsckTw542Vw"/>
+          </styles>
+          <element xsi:nil="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aOXyJbZvEe-bsckTw542Vw" x="100" y="100"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_fhZyA7ZvEe-bsckTw542Vw" type="StereotypeComment">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_fhZyBLZvEe-bsckTw542Vw"/>
+          <styles xmi:type="notation:EObjectValueStyle" xmi:id="_fhZyBrZvEe-bsckTw542Vw" name="BASE_ELEMENT">
+            <eObjectValue xmi:type="uml:InformationFlow" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_fhQBALZvEe-bsckTw542Vw"/>
+          </styles>
+          <element xsi:nil="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fhZyBbZvEe-bsckTw542Vw" x="100" y="100"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_pOQ44LZvEe-bsckTw542Vw" type="StereotypeComment">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_pOQ44bZvEe-bsckTw542Vw"/>
+          <styles xmi:type="notation:EObjectValueStyle" xmi:id="_pOQ447ZvEe-bsckTw542Vw" name="BASE_ELEMENT">
+            <eObjectValue xmi:type="uml:InformationFlow" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_pODdgLZvEe-bsckTw542Vw"/>
+          </styles>
+          <element xsi:nil="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pOQ44rZvEe-bsckTw542Vw" x="100" y="100"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_2PQqA7ZvEe-bsckTw542Vw" type="StereotypeComment">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_2PQqBLZvEe-bsckTw542Vw"/>
+          <styles xmi:type="notation:EObjectValueStyle" xmi:id="_2PQqBrZvEe-bsckTw542Vw" name="BASE_ELEMENT">
+            <eObjectValue xmi:type="uml:InformationFlow" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_2PCnkLZvEe-bsckTw542Vw"/>
+          </styles>
+          <element xsi:nil="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2PQqBbZvEe-bsckTw542Vw" x="100" y="100"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_5Ak7E7ZvEe-bsckTw542Vw" type="StereotypeComment">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_5Ak7FLZvEe-bsckTw542Vw"/>
+          <styles xmi:type="notation:EObjectValueStyle" xmi:id="_5Ak7FrZvEe-bsckTw542Vw" name="BASE_ELEMENT">
+            <eObjectValue xmi:type="uml:InformationFlow" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_5AZ78LZvEe-bsckTw542Vw"/>
+          </styles>
+          <element xsi:nil="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5Ak7FbZvEe-bsckTw542Vw" x="100" y="100"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_eYyZlLZuEe-bsckTw542Vw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eYyZlbZuEe-bsckTw542Vw"/>
+      </children>
+      <element xmi:type="uml:Class" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_cEA6kLZuEe-bsckTw542Vw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eYwkYbZuEe-bsckTw542Vw" x="40" y="40" width="1321" height="961"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_enBp4LZuEe-bsckTw542Vw" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_enBp4bZuEe-bsckTw542Vw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_enC4ALZuEe-bsckTw542Vw" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Class" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_cEA6kLZuEe-bsckTw542Vw"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_enBp4rZuEe-bsckTw542Vw" x="240" y="40"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_eXtbgbZuEe-bsckTw542Vw" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_eXtbgrZuEe-bsckTw542Vw"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_eXtbg7ZuEe-bsckTw542Vw" diagramKindId="org.eclipse.papyrus.sysml16.diagram.internalblock">
+      <owner xmi:type="uml:Package" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_YQ3ZELZuEe-bsckTw542Vw"/>
+    </styles>
+    <element xmi:type="uml:Class" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_cEA6kLZuEe-bsckTw542Vw"/>
+    <edges xmi:type="notation:Connector" xmi:id="_enDfELZuEe-bsckTw542Vw" type="StereotypeCommentLink" source="_eYwkYLZuEe-bsckTw542Vw" target="_enBp4LZuEe-bsckTw542Vw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_enDfEbZuEe-bsckTw542Vw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_enDfFbZuEe-bsckTw542Vw" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Class" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_cEA6kLZuEe-bsckTw542Vw"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_enDfErZuEe-bsckTw542Vw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_enDfE7ZuEe-bsckTw542Vw"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_enDfFLZuEe-bsckTw542Vw"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_aNqngLZvEe-bsckTw542Vw" type="InformationFlow_Edge" source="_L3z8QLZvEe-bsckTw542Vw" target="_xaa3cLZuEe-bsckTw542Vw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_aNqng7ZvEe-bsckTw542Vw" type="InformationFlow_ConveyedLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_a4GroLZvEe-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_aNqnhLZvEe-bsckTw542Vw" x="1" y="28"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_aNqnhbZvEe-bsckTw542Vw" type="InformationFlow_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_a4LkILZvEe-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_aNqnhrZvEe-bsckTw542Vw" x="1" y="13"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_aNqnh7ZvEe-bsckTw542Vw" type="InformationFlow_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_a4QcoLZvEe-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_aNqniLZvEe-bsckTw542Vw" x="-1" y="38"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_aNqngbZvEe-bsckTw542Vw"/>
+      <element xmi:type="uml:InformationFlow" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_aNmWELZvEe-bsckTw542Vw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_aNqngrZvEe-bsckTw542Vw" points="[1080, 260, -643984, -643984]$[707, 220, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_aOixQLZvEe-bsckTw542Vw" id="(0.0,0.5)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_aOixQbZvEe-bsckTw542Vw" id="(1.0,0.5)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_aOXyJ7ZvEe-bsckTw542Vw" type="StereotypeCommentLink" source="_aNqngLZvEe-bsckTw542Vw" target="_aOXyI7ZvEe-bsckTw542Vw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_aOXyKLZvEe-bsckTw542Vw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_aOXyLLZvEe-bsckTw542Vw" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:InformationFlow" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_aNmWELZvEe-bsckTw542Vw"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_aOXyKbZvEe-bsckTw542Vw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_aOXyKrZvEe-bsckTw542Vw"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_aOXyK7ZvEe-bsckTw542Vw"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_fhR2MLZvEe-bsckTw542Vw" type="InformationFlow_Edge" source="_-qqlgLZuEe-bsckTw542Vw" target="_xaa3cLZuEe-bsckTw542Vw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_fhR2M7ZvEe-bsckTw542Vw" type="InformationFlow_ConveyedLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_-Ow3MLZvEe-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_fhR2NLZvEe-bsckTw542Vw" y="29"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_fhR2NbZvEe-bsckTw542Vw" type="InformationFlow_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_-O290LZvEe-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_fhR2NrZvEe-bsckTw542Vw" y="14"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_fhR2N7ZvEe-bsckTw542Vw" type="InformationFlow_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_-O7PQLZvEe-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_fhR2OLZvEe-bsckTw542Vw" y="39"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_fhR2MbZvEe-bsckTw542Vw"/>
+      <element xmi:type="uml:InformationFlow" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_fhQBALZvEe-bsckTw542Vw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_fhR2MrZvEe-bsckTw542Vw" points="[380, 500, -643984, -643984]$[580, 240, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fhkKELZvEe-bsckTw542Vw" id="(0.6451612903225806,0.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fhkKEbZvEe-bsckTw542Vw" id="(0.0,0.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_fhZyB7ZvEe-bsckTw542Vw" type="StereotypeCommentLink" source="_fhR2MLZvEe-bsckTw542Vw" target="_fhZyA7ZvEe-bsckTw542Vw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_fhZyCLZvEe-bsckTw542Vw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_fhZyDLZvEe-bsckTw542Vw" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:InformationFlow" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_fhQBALZvEe-bsckTw542Vw"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_fhZyCbZvEe-bsckTw542Vw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fhZyCrZvEe-bsckTw542Vw"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fhZyC7ZvEe-bsckTw542Vw"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_iMffQLZvEe-bsckTw542Vw" type="Dependency_Edge" source="_xaa3cLZuEe-bsckTw542Vw" target="_ADh14LZvEe-bsckTw542Vw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_iMgGULZvEe-bsckTw542Vw" type="Dependency_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iMgGUbZvEe-bsckTw542Vw" x="31" y="-31"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_iMgGUrZvEe-bsckTw542Vw" type="Dependency_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iMgGU7ZvEe-bsckTw542Vw" y="60"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_iMffQbZvEe-bsckTw542Vw"/>
+      <element xmi:type="uml:Dependency" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_iMdqELZvEe-bsckTw542Vw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_iMffQrZvEe-bsckTw542Vw" points="[680, 240, -643984, -643984]$[920, 500, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_iMyaMLZvEe-bsckTw542Vw" id="(0.8383233532934131,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_iMyaMbZvEe-bsckTw542Vw" id="(0.7547169811320755,0.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_pOHH4LZvEe-bsckTw542Vw" type="InformationFlow_Edge" source="_ADh14LZvEe-bsckTw542Vw" target="_xaa3cLZuEe-bsckTw542Vw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_pOHH47ZvEe-bsckTw542Vw" type="InformationFlow_ConveyedLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_pOHH5LZvEe-bsckTw542Vw" y="30"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_pOHH5bZvEe-bsckTw542Vw" type="InformationFlow_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_pOHH5rZvEe-bsckTw542Vw" x="-4" y="-58"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_pOHH57ZvEe-bsckTw542Vw" type="InformationFlow_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_pOHH6LZvEe-bsckTw542Vw" x="9" y="-42"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_pOHH4bZvEe-bsckTw542Vw"/>
+      <element xmi:type="uml:InformationFlow" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_pODdgLZvEe-bsckTw542Vw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_pOHH4rZvEe-bsckTw542Vw" points="[840, 520, -643984, -643984]$[640, 240, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_pObQ8LZvEe-bsckTw542Vw" id="(0.37735849056603776,0.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_pObQ8bZvEe-bsckTw542Vw" id="(0.5988023952095808,1.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_pOQ45LZvEe-bsckTw542Vw" type="StereotypeCommentLink" source="_pOHH4LZvEe-bsckTw542Vw" target="_pOQ44LZvEe-bsckTw542Vw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_pOQ45bZvEe-bsckTw542Vw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_pOQ46bZvEe-bsckTw542Vw" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:InformationFlow" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_pODdgLZvEe-bsckTw542Vw"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_pOQ45rZvEe-bsckTw542Vw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_pOQ457ZvEe-bsckTw542Vw"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_pOQ46LZvEe-bsckTw542Vw"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_2PFq4LZvEe-bsckTw542Vw" type="InformationFlow_Edge" source="_Om9DELZvEe-bsckTw542Vw" target="_xaa3cLZuEe-bsckTw542Vw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_2PGR8LZvEe-bsckTw542Vw" type="InformationFlow_ConveyedLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_-cLoILZvEe-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_2PGR8bZvEe-bsckTw542Vw" y="30"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_2PGR8rZvEe-bsckTw542Vw" type="InformationFlow_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_-cRHsLZvEe-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_2PGR87ZvEe-bsckTw542Vw" x="2" y="64"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_2PGR9LZvEe-bsckTw542Vw" type="InformationFlow_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_-cWAMLZvEe-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_2PGR9bZvEe-bsckTw542Vw" x="13" y="42"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_2PFq4bZvEe-bsckTw542Vw"/>
+      <element xmi:type="uml:InformationFlow" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_2PCnkLZvEe-bsckTw542Vw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2PFq4rZvEe-bsckTw542Vw" points="[300, 200, -643984, -643984]$[560, 200, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2PbpILZvEe-bsckTw542Vw" id="(0.7766990291262136,0.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2PbpIbZvEe-bsckTw542Vw" id="(0.3592814371257485,1.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_2PQqB7ZvEe-bsckTw542Vw" type="StereotypeCommentLink" source="_2PFq4LZvEe-bsckTw542Vw" target="_2PQqA7ZvEe-bsckTw542Vw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_2PQqCLZvEe-bsckTw542Vw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_2PQqDLZvEe-bsckTw542Vw" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:InformationFlow" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_2PCnkLZvEe-bsckTw542Vw"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2PQqCbZvEe-bsckTw542Vw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2PQqCrZvEe-bsckTw542Vw"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2PQqC7ZvEe-bsckTw542Vw"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_5AdmULZvEe-bsckTw542Vw" type="InformationFlow_Edge" source="_xaa3cLZuEe-bsckTw542Vw" target="_Om9DELZvEe-bsckTw542Vw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_5AdmU7ZvEe-bsckTw542Vw" type="InformationFlow_ConveyedLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_-ccG0LZvEe-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_5AdmVLZvEe-bsckTw542Vw" y="30"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_5AdmVbZvEe-bsckTw542Vw" type="InformationFlow_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_-chmYLZvEe-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_5AdmVrZvEe-bsckTw542Vw" x="39" y="49"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_5AdmV7ZvEe-bsckTw542Vw" type="InformationFlow_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_-cl30LZvEe-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_5AdmWLZvEe-bsckTw542Vw" x="-7" y="54"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_5AdmUbZvEe-bsckTw542Vw"/>
+      <element xmi:type="uml:InformationFlow" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_5AZ78LZvEe-bsckTw542Vw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_5AdmUrZvEe-bsckTw542Vw" points="[540, 220, -643984, -643984]$[303, 220, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5AxvYLZvEe-bsckTw542Vw" id="(0.11976047904191617,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5AxvYbZvEe-bsckTw542Vw" id="(0.3883495145631068,0.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_5Ak7F7ZvEe-bsckTw542Vw" type="StereotypeCommentLink" source="_5AdmULZvEe-bsckTw542Vw" target="_5Ak7E7ZvEe-bsckTw542Vw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_5Ak7GLZvEe-bsckTw542Vw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_5Ak7HLZvEe-bsckTw542Vw" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:InformationFlow" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_5AZ78LZvEe-bsckTw542Vw"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_5Ak7GbZvEe-bsckTw542Vw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5Ak7GrZvEe-bsckTw542Vw"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5Ak7G7ZvEe-bsckTw542Vw"/>
+    </edges>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_sSGn4LZwEe-bsckTw542Vw" type="PapyrusUMLActivityDiagram" name="Heating Activity Diagram" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_sSGn4bZwEe-bsckTw542Vw" type="Activity_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_sSGn4rZwEe-bsckTw542Vw" type="Activity_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_sSGn47ZwEe-bsckTw542Vw" type="Activity_KeywordLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_sSGn5LZwEe-bsckTw542Vw" type="Activity_ParameterCompartment">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_sSGn5bZwEe-bsckTw542Vw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_sSGn5rZwEe-bsckTw542Vw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sSGn57ZwEe-bsckTw542Vw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_sSGn6LZwEe-bsckTw542Vw" type="Activity_PreconditionCompartment">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_sSGn6bZwEe-bsckTw542Vw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_sSGn6rZwEe-bsckTw542Vw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sSGn67ZwEe-bsckTw542Vw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_sSGn7LZwEe-bsckTw542Vw" type="Activity_PostconditionCompartment">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_sSGn7bZwEe-bsckTw542Vw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_sSGn7rZwEe-bsckTw542Vw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sSGn77ZwEe-bsckTw542Vw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_sSGn8LZwEe-bsckTw542Vw" type="Activity_ActivityNodeCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_5YKfMLZwEe-bsckTw542Vw" type="ActivityPartition_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_5YKfMrZwEe-bsckTw542Vw" type="ActivityPartition_NameLabel"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_5YKfM7ZwEe-bsckTw542Vw" type="ActivityPartition_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_5YKfNLZwEe-bsckTw542Vw" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_5YKfNbZwEe-bsckTw542Vw" type="ActivityPartition_ActivityNodeCompartment">
+            <children xmi:type="notation:Shape" xmi:id="_KhL1oLZxEe-bsckTw542Vw" type="InitialNode_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_KhL1orZxEe-bsckTw542Vw" type="InitialNode_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_KhL1o7ZxEe-bsckTw542Vw" y="15"/>
+              </children>
+              <children xmi:type="notation:DecorationNode" xmi:id="_KhL1pLZxEe-bsckTw542Vw" type="InitialNode_StereotypeLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_KhL1pbZxEe-bsckTw542Vw" y="15"/>
+              </children>
+              <element xmi:type="uml:InitialNode" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_KhHkMLZxEe-bsckTw542Vw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KhL1obZxEe-bsckTw542Vw" x="114" y="9"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_TQz4MLZxEe-bsckTw542Vw" type="OpaqueAction_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_TQz4MrZxEe-bsckTw542Vw" type="OpaqueAction_NameLabel"/>
+              <children xmi:type="notation:DecorationNode" xmi:id="_TQz4M7ZxEe-bsckTw542Vw" type="OpaqueAction_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_TQz4NLZxEe-bsckTw542Vw" y="15"/>
+              </children>
+              <element xmi:type="uml:OpaqueAction" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_QSMyALZxEe-bsckTw542Vw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TQ2UcLZxEe-bsckTw542Vw" x="54" y="69"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_Qx23kLZzEe-bsckTw542Vw" type="OpaqueAction_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_Qx3eoLZzEe-bsckTw542Vw" type="OpaqueAction_NameLabel"/>
+              <children xmi:type="notation:DecorationNode" xmi:id="_Qx3eobZzEe-bsckTw542Vw" type="OpaqueAction_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_Qx3eorZzEe-bsckTw542Vw" y="15"/>
+              </children>
+              <element xmi:type="uml:OpaqueAction" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_RC_80LZxEe-bsckTw542Vw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Qx3eo7ZzEe-bsckTw542Vw" x="74" y="669"/>
+            </children>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5YKfNrZwEe-bsckTw542Vw"/>
+          </children>
+          <element xmi:type="uml:ActivityPartition" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_xJxhcLZwEe-bsckTw542Vw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5YKfMbZwEe-bsckTw542Vw" x="95" y="124" width="281" height="841"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_5YVeU7ZwEe-bsckTw542Vw" type="StereotypeComment">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_5YVeVLZwEe-bsckTw542Vw"/>
+          <styles xmi:type="notation:EObjectValueStyle" xmi:id="_5YVeVrZwEe-bsckTw542Vw" name="BASE_ELEMENT">
+            <eObjectValue xmi:type="uml:ActivityPartition" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_xJxhcLZwEe-bsckTw542Vw"/>
+          </styles>
+          <element xsi:nil="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5YVeVbZwEe-bsckTw542Vw" x="200"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_5oLRILZwEe-bsckTw542Vw" type="ActivityPartition_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_5oLRIrZwEe-bsckTw542Vw" type="ActivityPartition_NameLabel"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_5oLRI7ZwEe-bsckTw542Vw" type="ActivityPartition_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_5oLRJLZwEe-bsckTw542Vw" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_5oLRJbZwEe-bsckTw542Vw" type="ActivityPartition_ActivityNodeCompartment">
+            <children xmi:type="notation:Shape" xmi:id="_rimoILZxEe-bsckTw542Vw" type="OpaqueAction_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_rimoIrZxEe-bsckTw542Vw" type="OpaqueAction_NameLabel"/>
+              <children xmi:type="notation:DecorationNode" xmi:id="_rimoI7ZxEe-bsckTw542Vw" type="OpaqueAction_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_rimoJLZxEe-bsckTw542Vw" y="15"/>
+              </children>
+              <element xmi:type="uml:OpaqueAction" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_Q4PeULZxEe-bsckTw542Vw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rimoJbZxEe-bsckTw542Vw" x="74" y="149"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_wNJrsLZxEe-bsckTw542Vw" type="OpaqueAction_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_wNJrsrZxEe-bsckTw542Vw" type="OpaqueAction_NameLabel"/>
+              <children xmi:type="notation:DecorationNode" xmi:id="_wNJrs7ZxEe-bsckTw542Vw" type="OpaqueAction_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_wNJrtLZxEe-bsckTw542Vw" y="15"/>
+              </children>
+              <element xmi:type="uml:OpaqueAction" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_Q5zkkLZxEe-bsckTw542Vw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wNJrtbZxEe-bsckTw542Vw" x="54" y="289"/>
+            </children>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5oLRJrZwEe-bsckTw542Vw"/>
+          </children>
+          <element xmi:type="uml:ActivityPartition" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_x195ELZwEe-bsckTw542Vw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5oLRIbZwEe-bsckTw542Vw" x="375" y="124" width="261" height="841"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_5oOUd7ZwEe-bsckTw542Vw" type="StereotypeComment">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_5oOUeLZwEe-bsckTw542Vw"/>
+          <styles xmi:type="notation:EObjectValueStyle" xmi:id="_5oOUerZwEe-bsckTw542Vw" name="BASE_ELEMENT">
+            <eObjectValue xmi:type="uml:ActivityPartition" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_x195ELZwEe-bsckTw542Vw"/>
+          </styles>
+          <element xsi:nil="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5oOUebZwEe-bsckTw542Vw" x="200"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_512gwLZwEe-bsckTw542Vw" type="ActivityPartition_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_512gwrZwEe-bsckTw542Vw" type="ActivityPartition_NameLabel"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_512gw7ZwEe-bsckTw542Vw" type="ActivityPartition_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_512gxLZwEe-bsckTw542Vw" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_512gxbZwEe-bsckTw542Vw" type="ActivityPartition_ActivityNodeCompartment">
+            <children xmi:type="notation:Shape" xmi:id="_ZWzwoLZyEe-bsckTw542Vw" type="OpaqueAction_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_ZWzworZyEe-bsckTw542Vw" type="OpaqueAction_NameLabel"/>
+              <children xmi:type="notation:DecorationNode" xmi:id="_ZWzwo7ZyEe-bsckTw542Vw" type="OpaqueAction_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_ZW0XsLZyEe-bsckTw542Vw" y="15"/>
+              </children>
+              <element xmi:type="uml:OpaqueAction" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_Q-RN0LZxEe-bsckTw542Vw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZW0XsbZyEe-bsckTw542Vw" x="94" y="409"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_l3IdoLZyEe-bsckTw542Vw" type="OpaqueAction_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_l3IdorZyEe-bsckTw542Vw" type="OpaqueAction_NameLabel"/>
+              <children xmi:type="notation:DecorationNode" xmi:id="_l3Ido7ZyEe-bsckTw542Vw" type="OpaqueAction_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_l3IdpLZyEe-bsckTw542Vw" y="15"/>
+              </children>
+              <element xmi:type="uml:OpaqueAction" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_Q_5lgLZxEe-bsckTw542Vw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_l3IdpbZyEe-bsckTw542Vw" x="94" y="509"/>
+            </children>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_512gxrZwEe-bsckTw542Vw"/>
+          </children>
+          <element xmi:type="uml:ActivityPartition" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_x6mhcLZwEe-bsckTw542Vw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_512gwbZwEe-bsckTw542Vw" x="635" y="124" width="301" height="841"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_515kE7ZwEe-bsckTw542Vw" type="StereotypeComment">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_515kFLZwEe-bsckTw542Vw"/>
+          <styles xmi:type="notation:EObjectValueStyle" xmi:id="_515kFrZwEe-bsckTw542Vw" name="BASE_ELEMENT">
+            <eObjectValue xmi:type="uml:ActivityPartition" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_x6mhcLZwEe-bsckTw542Vw"/>
+          </styles>
+          <element xsi:nil="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_515kFbZwEe-bsckTw542Vw" x="200"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_6SR-ELZwEe-bsckTw542Vw" type="ActivityPartition_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_6SR-ErZwEe-bsckTw542Vw" type="ActivityPartition_NameLabel"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_6SR-E7ZwEe-bsckTw542Vw" type="ActivityPartition_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_6SR-FLZwEe-bsckTw542Vw" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_6SR-FbZwEe-bsckTw542Vw" type="ActivityPartition_ActivityNodeCompartment">
+            <children xmi:type="notation:Shape" xmi:id="_Wv-GsLZxEe-bsckTw542Vw" type="OpaqueAction_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_Wv-twLZxEe-bsckTw542Vw" type="OpaqueAction_NameLabel"/>
+              <children xmi:type="notation:DecorationNode" xmi:id="_Wv-twbZxEe-bsckTw542Vw" type="OpaqueAction_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_Wv-twrZxEe-bsckTw542Vw" y="15"/>
+              </children>
+              <element xmi:type="uml:OpaqueAction" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_Q0cjcLZxEe-bsckTw542Vw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Wv-tw7ZxEe-bsckTw542Vw" x="94" y="69"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_gr2hALZxEe-bsckTw542Vw" type="DecisionNode_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_gr3IELZxEe-bsckTw542Vw" type="DecisionNode_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_gr3IEbZxEe-bsckTw542Vw" y="15"/>
+              </children>
+              <children xmi:type="notation:DecorationNode" xmi:id="_gr3IErZxEe-bsckTw542Vw" type="DecisionNode_DecisionInputLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_gr3IE7ZxEe-bsckTw542Vw" y="15"/>
+              </children>
+              <children xmi:type="notation:DecorationNode" xmi:id="_gr3IFLZxEe-bsckTw542Vw" type="DecisionNode_StereotypeLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_gr3IFbZxEe-bsckTw542Vw" y="15"/>
+              </children>
+              <element xmi:type="uml:DecisionNode" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_grwaYLZxEe-bsckTw542Vw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gr2hAbZxEe-bsckTw542Vw" x="134" y="149"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_p0eSYLZxEe-bsckTw542Vw" type="OpaqueAction_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_p0eSYrZxEe-bsckTw542Vw" type="OpaqueAction_NameLabel"/>
+              <children xmi:type="notation:DecorationNode" xmi:id="_p0e5cLZxEe-bsckTw542Vw" type="OpaqueAction_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_p0e5cbZxEe-bsckTw542Vw" y="15"/>
+              </children>
+              <element xmi:type="uml:OpaqueAction" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_Q2nGoLZxEe-bsckTw542Vw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p0e5crZxEe-bsckTw542Vw" x="94" y="209"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_B-5PALZyEe-bsckTw542Vw" type="OpaqueAction_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_B-52ELZyEe-bsckTw542Vw" type="OpaqueAction_NameLabel"/>
+              <children xmi:type="notation:DecorationNode" xmi:id="_B-52EbZyEe-bsckTw542Vw" type="OpaqueAction_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_B-52ErZyEe-bsckTw542Vw" y="15"/>
+              </children>
+              <element xmi:type="uml:OpaqueAction" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_Q7MEoLZxEe-bsckTw542Vw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_B-52E7ZyEe-bsckTw542Vw" x="94" y="289"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_J2oAQLZyEe-bsckTw542Vw" type="OpaqueAction_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_J2oAQrZyEe-bsckTw542Vw" type="OpaqueAction_NameLabel"/>
+              <children xmi:type="notation:DecorationNode" xmi:id="_J2oAQ7ZyEe-bsckTw542Vw" type="OpaqueAction_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_J2oARLZyEe-bsckTw542Vw" y="15"/>
+              </children>
+              <element xmi:type="uml:OpaqueAction" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_Q8qrULZxEe-bsckTw542Vw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_J2oARbZyEe-bsckTw542Vw" x="34" y="409"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_FS_nkLZzEe-bsckTw542Vw" type="OpaqueAction_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_FS_nkrZzEe-bsckTw542Vw" type="OpaqueAction_NameLabel"/>
+              <children xmi:type="notation:DecorationNode" xmi:id="_FS_nk7ZzEe-bsckTw542Vw" type="OpaqueAction_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_FS_nlLZzEe-bsckTw542Vw" y="15"/>
+              </children>
+              <element xmi:type="uml:OpaqueAction" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_RBSFkLZxEe-bsckTw542Vw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FS_nlbZzEe-bsckTw542Vw" x="74" y="509"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_JZYOILZzEe-bsckTw542Vw" type="DecisionNode_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_JZYOIrZzEe-bsckTw542Vw" type="DecisionNode_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_JZY1MLZzEe-bsckTw542Vw" y="15"/>
+              </children>
+              <children xmi:type="notation:DecorationNode" xmi:id="_JZY1MbZzEe-bsckTw542Vw" type="DecisionNode_DecisionInputLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_JZY1MrZzEe-bsckTw542Vw" y="15"/>
+              </children>
+              <children xmi:type="notation:DecorationNode" xmi:id="_JZY1M7ZzEe-bsckTw542Vw" type="DecisionNode_StereotypeLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_JZY1NLZzEe-bsckTw542Vw" y="15"/>
+              </children>
+              <element xmi:type="uml:DecisionNode" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_JZQ5YLZzEe-bsckTw542Vw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JZYOIbZzEe-bsckTw542Vw" x="114" y="589"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_TRZcILZzEe-bsckTw542Vw" type="OpaqueAction_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_TRZcIrZzEe-bsckTw542Vw" type="OpaqueAction_NameLabel"/>
+              <children xmi:type="notation:DecorationNode" xmi:id="_TRZcI7ZzEe-bsckTw542Vw" type="OpaqueAction_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_TRZcJLZzEe-bsckTw542Vw" y="15"/>
+              </children>
+              <element xmi:type="uml:OpaqueAction" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_REt0ELZxEe-bsckTw542Vw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TRZcJbZzEe-bsckTw542Vw" x="74" y="669"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_UHpHoLZzEe-bsckTw542Vw" type="ActivityFinalNode_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_UHpHorZzEe-bsckTw542Vw" type="ActivityFinalNode_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_UHpHo7ZzEe-bsckTw542Vw" y="15"/>
+              </children>
+              <children xmi:type="notation:DecorationNode" xmi:id="_UHpHpLZzEe-bsckTw542Vw" type="ActivityFinalNode_StereotypeLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_UHpHpbZzEe-bsckTw542Vw" y="15"/>
+              </children>
+              <element xmi:type="uml:ActivityFinalNode" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_UHhL0LZzEe-bsckTw542Vw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UHpHobZzEe-bsckTw542Vw" x="114" y="729"/>
+            </children>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6SR-FrZwEe-bsckTw542Vw"/>
+          </children>
+          <element xmi:type="uml:ActivityPartition" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_x9s4wLZwEe-bsckTw542Vw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6SR-EbZwEe-bsckTw542Vw" x="935" y="124" width="321" height="841"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_6SVod7ZwEe-bsckTw542Vw" type="StereotypeComment">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_6SVoeLZwEe-bsckTw542Vw"/>
+          <styles xmi:type="notation:EObjectValueStyle" xmi:id="_6SVoerZwEe-bsckTw542Vw" name="BASE_ELEMENT">
+            <eObjectValue xmi:type="uml:ActivityPartition" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_x9s4wLZwEe-bsckTw542Vw"/>
+          </styles>
+          <element xsi:nil="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6SVoebZwEe-bsckTw542Vw" x="200"/>
+        </children>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sSGn8bZwEe-bsckTw542Vw"/>
+      </children>
+      <element xmi:type="uml:Activity" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_dAxL0LZwEe-bsckTw542Vw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sSGn8rZwEe-bsckTw542Vw" width="1281" height="1041"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_sSGn87ZwEe-bsckTw542Vw" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_sSGn9LZwEe-bsckTw542Vw"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_sSGn9bZwEe-bsckTw542Vw" diagramKindId="org.eclipse.papyrus.sysml16.diagram.activity">
+      <owner xmi:type="uml:Package" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_JiKeELZwEe-bsckTw542Vw"/>
+    </styles>
+    <element xmi:type="uml:Activity" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_dAxL0LZwEe-bsckTw542Vw"/>
+    <edges xmi:type="notation:Connector" xmi:id="_5YVeV7ZwEe-bsckTw542Vw" type="StereotypeCommentLink" source="_5YKfMLZwEe-bsckTw542Vw" target="_5YVeU7ZwEe-bsckTw542Vw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_5YVeWLZwEe-bsckTw542Vw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_5YVeXLZwEe-bsckTw542Vw" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:ActivityPartition" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_xJxhcLZwEe-bsckTw542Vw"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_5YVeWbZwEe-bsckTw542Vw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5YVeWrZwEe-bsckTw542Vw"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5YVeW7ZwEe-bsckTw542Vw"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_5oOUe7ZwEe-bsckTw542Vw" type="StereotypeCommentLink" source="_5oLRILZwEe-bsckTw542Vw" target="_5oOUd7ZwEe-bsckTw542Vw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_5oOUfLZwEe-bsckTw542Vw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_5oOUgLZwEe-bsckTw542Vw" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:ActivityPartition" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_x195ELZwEe-bsckTw542Vw"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_5oOUfbZwEe-bsckTw542Vw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5oOUfrZwEe-bsckTw542Vw"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5oOUf7ZwEe-bsckTw542Vw"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_515kF7ZwEe-bsckTw542Vw" type="StereotypeCommentLink" source="_512gwLZwEe-bsckTw542Vw" target="_515kE7ZwEe-bsckTw542Vw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_515kGLZwEe-bsckTw542Vw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_515kHLZwEe-bsckTw542Vw" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:ActivityPartition" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_x6mhcLZwEe-bsckTw542Vw"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_515kGbZwEe-bsckTw542Vw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_515kGrZwEe-bsckTw542Vw"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_515kG7ZwEe-bsckTw542Vw"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_6SVoe7ZwEe-bsckTw542Vw" type="StereotypeCommentLink" source="_6SR-ELZwEe-bsckTw542Vw" target="_6SVod7ZwEe-bsckTw542Vw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_6SVofLZwEe-bsckTw542Vw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_6SVogLZwEe-bsckTw542Vw" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:ActivityPartition" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_x9s4wLZwEe-bsckTw542Vw"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_6SVofbZwEe-bsckTw542Vw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6SVofrZwEe-bsckTw542Vw"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6SVof7ZwEe-bsckTw542Vw"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_USGWELZxEe-bsckTw542Vw" type="ControlFlow_Edge" source="_KhL1oLZxEe-bsckTw542Vw" target="_TQz4MLZxEe-bsckTw542Vw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_USG9IrZxEe-bsckTw542Vw" type="ControlFlow_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_USG9I7ZxEe-bsckTw542Vw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_USG9JLZxEe-bsckTw542Vw" type="ControlFlow_WeightLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_USG9JbZxEe-bsckTw542Vw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_USG9JrZxEe-bsckTw542Vw" type="ControlFlow_GuardLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_USG9J7ZxEe-bsckTw542Vw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_USG9KLZxEe-bsckTw542Vw" type="ControlFlow_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_USG9KbZxEe-bsckTw542Vw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_USG9ILZxEe-bsckTw542Vw"/>
+      <element xmi:type="uml:ControlFlow" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_USAPcLZxEe-bsckTw542Vw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_USG9IbZxEe-bsckTw542Vw" points="[221, 233, -643984, -643984]$[221, 280, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_USafILZxEe-bsckTw542Vw" id="(0.06220930232558004,0.6744186046511629)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_USafIbZxEe-bsckTw542Vw" id="(0.5304347826086957,0.5)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_XpjaELZxEe-bsckTw542Vw" type="ControlFlow_Edge" source="_TQz4MLZxEe-bsckTw542Vw" target="_Wv-GsLZxEe-bsckTw542Vw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_XpkBILZxEe-bsckTw542Vw" type="ControlFlow_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_X34xALZxEe-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_XpkBIbZxEe-bsckTw542Vw" x="-115" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_XpkBIrZxEe-bsckTw542Vw" type="ControlFlow_WeightLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_X39pgLZxEe-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_XpkBI7ZxEe-bsckTw542Vw" x="1" y="18"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_XpkBJLZxEe-bsckTw542Vw" type="ControlFlow_GuardLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_X4BT4LZxEe-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_XpkBJbZxEe-bsckTw542Vw" x="114" y="18"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_XpkBJrZxEe-bsckTw542Vw" type="ControlFlow_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_X4EXMLZxEe-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_XpkBJ7ZxEe-bsckTw542Vw" x="2" y="-17"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_XpjaEbZxEe-bsckTw542Vw"/>
+      <element xmi:type="uml:ControlFlow" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_Xpd6gLZxEe-bsckTw542Vw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XpjaErZxEe-bsckTw542Vw" points="[7, 1, -775, 17]$[772, -16, -10, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XpuZMLZxEe-bsckTw542Vw" id="(0.9391304347826087,0.475)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XpuZMbZxEe-bsckTw542Vw" id="(0.0,0.425)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_xS5LwLZxEe-bsckTw542Vw" type="ControlFlow_Edge" source="_Wv-GsLZxEe-bsckTw542Vw" target="_gr2hALZxEe-bsckTw542Vw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_xS5Lw7ZxEe-bsckTw542Vw" type="ControlFlow_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xS5LxLZxEe-bsckTw542Vw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_xS5LxbZxEe-bsckTw542Vw" type="ControlFlow_WeightLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xS5LxrZxEe-bsckTw542Vw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_xS5Lx7ZxEe-bsckTw542Vw" type="ControlFlow_GuardLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xS5LyLZxEe-bsckTw542Vw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_xS5LybZxEe-bsckTw542Vw" type="ControlFlow_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xS5LyrZxEe-bsckTw542Vw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_xS5LwbZxEe-bsckTw542Vw"/>
+      <element xmi:type="uml:ControlFlow" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_xSx3ALZxEe-bsckTw542Vw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_xS5LwrZxEe-bsckTw542Vw" points="[944, 148, 952, 166]$[938, 188, 946, 206]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xTEx8LZxEe-bsckTw542Vw" id="(0.5555555555555562,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xTEx8bZxEe-bsckTw542Vw" id="(0.5,0.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_x6_GgLZxEe-bsckTw542Vw" type="ControlFlow_Edge" source="_gr2hALZxEe-bsckTw542Vw" target="_p0eSYLZxEe-bsckTw542Vw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_x6_tkLZxEe-bsckTw542Vw" type="ControlFlow_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_x6_tkbZxEe-bsckTw542Vw" x="-10" y="-38"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_x6_tkrZxEe-bsckTw542Vw" type="ControlFlow_WeightLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_x6_tk7ZxEe-bsckTw542Vw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_x6_tlLZxEe-bsckTw542Vw" type="ControlFlow_GuardLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_x6_tlbZxEe-bsckTw542Vw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_x6_tlrZxEe-bsckTw542Vw" type="ControlFlow_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_x6_tl7ZxEe-bsckTw542Vw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_x6_GgbZxEe-bsckTw542Vw"/>
+      <element xmi:type="uml:ControlFlow" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_x62joLZxEe-bsckTw542Vw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_x6_GgrZxEe-bsckTw542Vw" points="[1096, 380, -643984, -643984]$[1091, 420, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_x7KssLZxEe-bsckTw542Vw" id="(0.8333333333333371,0.6666666666666666)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_x7KssbZxEe-bsckTw542Vw" id="(0.5204081632653061,0.3)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_0gUxELZxEe-bsckTw542Vw" type="ControlFlow_Edge" source="_gr2hALZxEe-bsckTw542Vw" target="_rimoILZxEe-bsckTw542Vw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_0gUxE7ZxEe-bsckTw542Vw" type="ControlFlow_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_0gUxFLZxEe-bsckTw542Vw" x="-368" y="24"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_0gUxFbZxEe-bsckTw542Vw" type="ControlFlow_WeightLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_0gUxFrZxEe-bsckTw542Vw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_0gUxF7ZxEe-bsckTw542Vw" type="ControlFlow_GuardLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_0gUxGLZxEe-bsckTw542Vw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_0gUxGbZxEe-bsckTw542Vw" type="ControlFlow_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_0gUxGrZxEe-bsckTw542Vw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_0gUxEbZxEe-bsckTw542Vw"/>
+      <element xmi:type="uml:ControlFlow" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_0gNcULZxEe-bsckTw542Vw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0gUxErZxEe-bsckTw542Vw" points="[1080, 375, -643984, -643984]$[561, 380, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0gfwMLZxEe-bsckTw542Vw" id="(0.0,0.5)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0gfwMbZxEe-bsckTw542Vw" id="(1.0,0.5)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_3l7QELZxEe-bsckTw542Vw" type="ControlFlow_Edge" source="_rimoILZxEe-bsckTw542Vw" target="_wNJrsLZxEe-bsckTw542Vw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_3l7QE7ZxEe-bsckTw542Vw" type="ControlFlow_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_DQ9T0LZyEe-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_3l7QFLZxEe-bsckTw542Vw" x="-12" y="18"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_3l7QFbZxEe-bsckTw542Vw" type="ControlFlow_WeightLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_DRCzYLZyEe-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_3l7QFrZxEe-bsckTw542Vw" x="-2" y="17"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_3l7QF7ZxEe-bsckTw542Vw" type="ControlFlow_GuardLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_DRHr4LZyEe-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_3l7QGLZxEe-bsckTw542Vw" x="-12" y="18"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_3l7QGbZxEe-bsckTw542Vw" type="ControlFlow_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_DRNLcLZyEe-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_3l7QGrZxEe-bsckTw542Vw" x="1" y="18"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_3l7QEbZxEe-bsckTw542Vw"/>
+      <element xmi:type="uml:ControlFlow" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_3lzUQLZxEe-bsckTw542Vw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_3l7QErZxEe-bsckTw542Vw" points="[0, 3, -1, -100]$[1, 83, 0, -20]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3mOyELZxEe-bsckTw542Vw" id="(0.49504950495049505,0.925)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3mOyEbZxEe-bsckTw542Vw" id="(0.5419847328244275,0.5)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_DDCMkLZyEe-bsckTw542Vw" type="ControlFlow_Edge" source="_wNJrsLZxEe-bsckTw542Vw" target="_B-5PALZyEe-bsckTw542Vw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_DDCMk7ZyEe-bsckTw542Vw" type="ControlFlow_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_DQk5ULZyEe-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_DDCMlLZyEe-bsckTw542Vw" x="-70" y="19"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_DDCMlbZyEe-bsckTw542Vw" type="ControlFlow_WeightLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_DQsOELZyEe-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_DDCMlrZyEe-bsckTw542Vw" x="1" y="18"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_DDCMl7ZyEe-bsckTw542Vw" type="ControlFlow_GuardLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_DQzi0LZyEe-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_DDCMmLZyEe-bsckTw542Vw" x="71" y="19"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_DDCMmbZyEe-bsckTw542Vw" type="ControlFlow_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_DQ5CYLZyEe-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_DDCMmrZyEe-bsckTw542Vw" x="-1" y="-18"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_DDCMkbZyEe-bsckTw542Vw"/>
+      <element xmi:type="uml:ControlFlow" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_DC8F8LZyEe-bsckTw542Vw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_DDCMkrZyEe-bsckTw542Vw" points="[6, -2, -480, -19]$[475, 17, -11, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_DDOZ0LZyEe-bsckTw542Vw" id="(0.9541984732824428,0.55)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_DDPA4LZyEe-bsckTw542Vw" id="(0.1134020618556701,0.475)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_LpBK8LZyEe-bsckTw542Vw" type="ControlFlow_Edge" source="_B-5PALZyEe-bsckTw542Vw" target="_J2oAQLZyEe-bsckTw542Vw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_LpBK87ZyEe-bsckTw542Vw" type="ControlFlow_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_MCUbwLZyEe-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_LpBK9LZyEe-bsckTw542Vw" x="5" y="17"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_LpBK9bZyEe-bsckTw542Vw" type="ControlFlow_WeightLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_MCaiYLZyEe-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_LpBK9rZyEe-bsckTw542Vw" x="1" y="18"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_LpBK97ZyEe-bsckTw542Vw" type="ControlFlow_GuardLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_MCgpALZyEe-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_LpBK-LZyEe-bsckTw542Vw" x="7" y="19"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_LpBK-bZyEe-bsckTw542Vw" type="ControlFlow_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_MCmvoLZyEe-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_LpBK-rZyEe-bsckTw542Vw" x="-1" y="-19"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_LpBK8bZyEe-bsckTw542Vw"/>
+      <element xmi:type="uml:ControlFlow" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_Lo4BALZyEe-bsckTw542Vw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_LpBK8rZyEe-bsckTw542Vw" points="[0, 10, 4, -52]$[-4, 50, 0, -12]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LpOmULZyEe-bsckTw542Vw" id="(0.4639175257731959,0.75)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LpOmUbZyEe-bsckTw542Vw" id="(0.543010752688172,0.3)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_eGsAILZyEe-bsckTw542Vw" type="ControlFlow_Edge" source="_J2oAQLZyEe-bsckTw542Vw" target="_ZWzwoLZyEe-bsckTw542Vw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_eGsAI7ZyEe-bsckTw542Vw" type="ControlFlow_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_eGsAJLZyEe-bsckTw542Vw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_eGsAJbZyEe-bsckTw542Vw" type="ControlFlow_WeightLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_eGsAJrZyEe-bsckTw542Vw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_eGsAJ7ZyEe-bsckTw542Vw" type="ControlFlow_GuardLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_eGsAKLZyEe-bsckTw542Vw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_eGsAKbZyEe-bsckTw542Vw" type="ControlFlow_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_eGsAKrZyEe-bsckTw542Vw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_eGsAIbZyEe-bsckTw542Vw"/>
+      <element xmi:type="uml:ControlFlow" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_eGl5gLZyEe-bsckTw542Vw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_eGsAIrZyEe-bsckTw542Vw" points="[-6, 0, 160, -2]$[-158, -1, 8, -3]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_eG5bgLZyEe-bsckTw542Vw" id="(0.03225806451612903,0.525)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_eG5bgbZyEe-bsckTw542Vw" id="(0.9090909090909091,0.575)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_Gc1kgLZzEe-bsckTw542Vw" type="ControlFlow_Edge" source="_ZWzwoLZyEe-bsckTw542Vw" target="_l3IdoLZyEe-bsckTw542Vw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Gc1kg7ZzEe-bsckTw542Vw" type="ControlFlow_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Gc1khLZzEe-bsckTw542Vw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_Gc1khbZzEe-bsckTw542Vw" type="ControlFlow_WeightLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Gc1khrZzEe-bsckTw542Vw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_Gc1kh7ZzEe-bsckTw542Vw" type="ControlFlow_GuardLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Gc1kiLZzEe-bsckTw542Vw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_Gc1kibZzEe-bsckTw542Vw" type="ControlFlow_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Gc1kirZzEe-bsckTw542Vw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_Gc1kgbZzEe-bsckTw542Vw"/>
+      <element xmi:type="uml:ControlFlow" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_GctosLZzEe-bsckTw542Vw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Gc1kgrZzEe-bsckTw542Vw" points="[0, 10, 1, -80]$[-1, 70, 0, -20]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GdEOALZzEe-bsckTw542Vw" id="(0.4659090909090909,0.75)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GdEOAbZzEe-bsckTw542Vw" id="(0.4444444444444444,0.5)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_HCWFULZzEe-bsckTw542Vw" type="ControlFlow_Edge" source="_l3IdoLZyEe-bsckTw542Vw" target="_FS_nkLZzEe-bsckTw542Vw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_HCWsYLZzEe-bsckTw542Vw" type="ControlFlow_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HCWsYbZzEe-bsckTw542Vw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_HCWsYrZzEe-bsckTw542Vw" type="ControlFlow_WeightLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HCWsY7ZzEe-bsckTw542Vw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_HCWsZLZzEe-bsckTw542Vw" type="ControlFlow_GuardLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HCWsZbZzEe-bsckTw542Vw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_HCWsZrZzEe-bsckTw542Vw" type="ControlFlow_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HCWsZ7ZzEe-bsckTw542Vw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_HCWFUbZzEe-bsckTw542Vw"/>
+      <element xmi:type="uml:ControlFlow" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_HCOJgLZzEe-bsckTw542Vw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_HCWFUrZzEe-bsckTw542Vw" points="[12, -3, -198, 0]$[202, -3, -8, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HCl88LZzEe-bsckTw542Vw" id="(0.8666666666666667,0.575)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HCl88bZzEe-bsckTw542Vw" id="(0.07547169811320754,0.5)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_UyQK4LZzEe-bsckTw542Vw" type="ControlFlow_Edge" source="_TRZcILZzEe-bsckTw542Vw" target="_UHpHoLZzEe-bsckTw542Vw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_UyQK47ZzEe-bsckTw542Vw" type="ControlFlow_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_iSbLULZzEe-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_UyQK5LZzEe-bsckTw542Vw" x="-8" y="18"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_UyQK5bZzEe-bsckTw542Vw" type="ControlFlow_WeightLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_iSljYLZzEe-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_UyQx8LZzEe-bsckTw542Vw" x="-1" y="18"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_UyQx8bZzEe-bsckTw542Vw" type="ControlFlow_GuardLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_iSyXsLZzEe-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_UyQx8rZzEe-bsckTw542Vw" x="5" y="18"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_UyQx87ZzEe-bsckTw542Vw" type="ControlFlow_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_iS5scLZzEe-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_UyQx9LZzEe-bsckTw542Vw" x="1" y="-19"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_UyQK4bZzEe-bsckTw542Vw"/>
+      <element xmi:type="uml:ControlFlow" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_UyFy0LZzEe-bsckTw542Vw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_UyQK4rZzEe-bsckTw542Vw" points="[0, 8, 939, 163]$[11, 52, 950, 207]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_UygpkLZzEe-bsckTw542Vw" id="(0.4787234042553192,0.8)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_UygpkbZzEe-bsckTw542Vw" id="(0.6,0.4)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_Vo9wcLZzEe-bsckTw542Vw" type="ControlFlow_Edge" source="_FS_nkLZzEe-bsckTw542Vw" target="_JZYOILZzEe-bsckTw542Vw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Vo9wc7ZzEe-bsckTw542Vw" type="ControlFlow_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Vo9wdLZzEe-bsckTw542Vw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_Vo9wdbZzEe-bsckTw542Vw" type="ControlFlow_WeightLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Vo9wdrZzEe-bsckTw542Vw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_Vo9wd7ZzEe-bsckTw542Vw" type="ControlFlow_GuardLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Vo9weLZzEe-bsckTw542Vw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_Vo9webZzEe-bsckTw542Vw" type="ControlFlow_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Vo9werZzEe-bsckTw542Vw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_Vo9wcbZzEe-bsckTw542Vw"/>
+      <element xmi:type="uml:ControlFlow" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_Voz_cLZzEe-bsckTw542Vw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Vo9wcrZzEe-bsckTw542Vw" points="[952, 171, 945, 163]$[952, 211, 945, 203]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_VpPdQLZzEe-bsckTw542Vw" id="(0.4716981132075472,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_VpPdQbZzEe-bsckTw542Vw" id="(0.5,0.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_X0xgsLZzEe-bsckTw542Vw" type="ControlFlow_Edge" source="_JZYOILZzEe-bsckTw542Vw" target="_Qx23kLZzEe-bsckTw542Vw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_X0xgs7ZzEe-bsckTw542Vw" type="ControlFlow_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_YYIFYLZzEe-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_X0xgtLZzEe-bsckTw542Vw" x="-68" y="85"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_X0xgtbZzEe-bsckTw542Vw" type="ControlFlow_WeightLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_YYRPULZzEe-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_X0xgtrZzEe-bsckTw542Vw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_X0xgt7ZzEe-bsckTw542Vw" type="ControlFlow_GuardLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_YYc1gLZzEe-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_X0xguLZzEe-bsckTw542Vw" x="132" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_X0xgubZzEe-bsckTw542Vw" type="ControlFlow_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_YYkxULZzEe-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_X0xgurZzEe-bsckTw542Vw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_X0xgsbZzEe-bsckTw542Vw"/>
+      <element xmi:type="uml:ControlFlow" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_X0o90LZzEe-bsckTw542Vw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_X0xgsrZzEe-bsckTw542Vw" points="[1060, 815, -643984, -643984]$[239, 815, -643984, -643984]$[239, 880, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_X1DNgLZzEe-bsckTw542Vw" id="(0.0,0.5)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_X1DNgbZzEe-bsckTw542Vw" id="(0.5042735042735043,0.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_aHz6ULZzEe-bsckTw542Vw" type="ControlFlow_Edge" source="_Qx23kLZzEe-bsckTw542Vw" target="_TRZcILZzEe-bsckTw542Vw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_aHz6U7ZzEe-bsckTw542Vw" type="ControlFlow_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_iTBBMLZzEe-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_aHz6VLZzEe-bsckTw542Vw" x="-109" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_aHz6VbZzEe-bsckTw542Vw" type="ControlFlow_WeightLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_iTJkELZzEe-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_aHz6VrZzEe-bsckTw542Vw" y="19"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_aHz6V7ZzEe-bsckTw542Vw" type="ControlFlow_GuardLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_iTRf4LZzEe-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_aHz6WLZzEe-bsckTw542Vw" x="108" y="18"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_aHz6WbZzEe-bsckTw542Vw" type="ControlFlow_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_iTZbsLZzEe-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_aHz6WrZzEe-bsckTw542Vw" x="1" y="-18"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_aHz6UbZzEe-bsckTw542Vw"/>
+      <element xmi:type="uml:ControlFlow" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_aHqwYLZzEe-bsckTw542Vw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_aHz6UrZzEe-bsckTw542Vw" points="[5, -3, -734, 18]$[728, -21, -11, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_aIFnILZzEe-bsckTw542Vw" id="(0.9572649572649573,0.575)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_aIFnIbZzEe-bsckTw542Vw" id="(0.11702127659574468,0.55)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_czoAULZzEe-bsckTw542Vw" type="ControlFlow_Edge" source="_p0eSYLZxEe-bsckTw542Vw" target="_TRZcILZzEe-bsckTw542Vw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_czoAU7ZzEe-bsckTw542Vw" type="ControlFlow_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_dX2uwLZzEe-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_czoAVLZzEe-bsckTw542Vw" x="-70" y="18"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_czoAVbZzEe-bsckTw542Vw" type="ControlFlow_WeightLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_dYAfwLZzEe-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_czoAVrZzEe-bsckTw542Vw" x="1" y="18"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_czoAV7ZzEe-bsckTw542Vw" type="ControlFlow_GuardLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_dYHNcLZzEe-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_czoAWLZzEe-bsckTw542Vw" x="68" y="18"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_czoAWbZzEe-bsckTw542Vw" type="ControlFlow_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_dYRlgLZzEe-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_czoAWrZzEe-bsckTw542Vw" y="-19"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_czoAUbZzEe-bsckTw542Vw"/>
+      <element xmi:type="uml:ControlFlow" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_czdoQLZzEe-bsckTw542Vw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_czoAUrZzEe-bsckTw542Vw" points="[1088, 460, -643984, -643984]$[1160, 480, -643984, -643984]$[1160, 860, -643984, -643984]$[1081, 860, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cz6UMLZzEe-bsckTw542Vw" id="(0.4897959183673469,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cz6UMbZzEe-bsckTw542Vw" id="(0.648936170212766,0.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_uKT_ULZzEe-bsckTw542Vw" type="ControlFlow_Edge" source="_JZYOILZzEe-bsckTw542Vw" target="_gr2hALZxEe-bsckTw542Vw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_uKT_U7ZzEe-bsckTw542Vw" type="ControlFlow_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_uohlULZzEe-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_uKT_VLZzEe-bsckTw542Vw" x="-14" y="-435"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_uKT_VbZzEe-bsckTw542Vw" type="ControlFlow_WeightLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_uoqIMLZzEe-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_uKT_VrZzEe-bsckTw542Vw" x="-1" y="18"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_uKT_V7ZzEe-bsckTw542Vw" type="ControlFlow_GuardLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_uo1HULZzEe-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_uKT_WLZzEe-bsckTw542Vw" x="94" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_uKT_WbZzEe-bsckTw542Vw" type="ControlFlow_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_uo-RQLZzEe-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_uKT_WrZzEe-bsckTw542Vw" x="1" y="-18"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_uKT_UbZzEe-bsckTw542Vw"/>
+      <element xmi:type="uml:ControlFlow" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_uKIZILZzEe-bsckTw542Vw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_uKT_UrZzEe-bsckTw542Vw" points="[1077, 820, -643984, -643984]$[1240, 820, -643984, -643984]$[1240, 375, -643984, -643984]$[1100, 375, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uKpWgLZzEe-bsckTw542Vw" id="(0.85,0.6666666666666666)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uKpWgbZzEe-bsckTw542Vw" id="(1.0,0.5)"/>
+    </edges>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_8Dy3oLZzEe-bsckTw542Vw" type="PapyrusUMLActivityDiagram" name="Ligthing Activity Diagram" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_8Dy3obZzEe-bsckTw542Vw" type="Activity_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_8Dy3orZzEe-bsckTw542Vw" type="Activity_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_8Dy3o7ZzEe-bsckTw542Vw" type="Activity_KeywordLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_8Dy3pLZzEe-bsckTw542Vw" type="Activity_ParameterCompartment">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_8Dy3pbZzEe-bsckTw542Vw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_8Dy3prZzEe-bsckTw542Vw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8Dy3p7ZzEe-bsckTw542Vw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_8Dy3qLZzEe-bsckTw542Vw" type="Activity_PreconditionCompartment">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_8Dy3qbZzEe-bsckTw542Vw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_8Dy3qrZzEe-bsckTw542Vw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8Dy3q7ZzEe-bsckTw542Vw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_8Dy3rLZzEe-bsckTw542Vw" type="Activity_PostconditionCompartment">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_8Dy3rbZzEe-bsckTw542Vw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_8Dy3rrZzEe-bsckTw542Vw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8Dy3r7ZzEe-bsckTw542Vw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_8Dy3sLZzEe-bsckTw542Vw" type="Activity_ActivityNodeCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_Ek3g0LZ0Ee-bsckTw542Vw" type="ActivityPartition_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_Ek3g0rZ0Ee-bsckTw542Vw" type="ActivityPartition_NameLabel"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_Ek3g07Z0Ee-bsckTw542Vw" type="ActivityPartition_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_Ek3g1LZ0Ee-bsckTw542Vw" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_Ek3g1bZ0Ee-bsckTw542Vw" type="ActivityPartition_ActivityNodeCompartment">
+            <children xmi:type="notation:Shape" xmi:id="_RJpQALZ0Ee-bsckTw542Vw" type="OpaqueAction_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_RJpQArZ0Ee-bsckTw542Vw" type="OpaqueAction_NameLabel"/>
+              <children xmi:type="notation:DecorationNode" xmi:id="_RJpQA7Z0Ee-bsckTw542Vw" type="OpaqueAction_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_RJpQBLZ0Ee-bsckTw542Vw" y="15"/>
+              </children>
+              <element xmi:type="uml:OpaqueAction" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_PkDyQLZ0Ee-bsckTw542Vw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RJpQBbZ0Ee-bsckTw542Vw" x="54" y="69"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_TiUXkLZ0Ee-bsckTw542Vw" type="InitialNode_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_TiUXkrZ0Ee-bsckTw542Vw" type="InitialNode_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_TiUXk7Z0Ee-bsckTw542Vw" y="15"/>
+              </children>
+              <children xmi:type="notation:DecorationNode" xmi:id="_TiUXlLZ0Ee-bsckTw542Vw" type="InitialNode_StereotypeLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_TiUXlbZ0Ee-bsckTw542Vw" y="15"/>
+              </children>
+              <element xmi:type="uml:InitialNode" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_TiRUQLZ0Ee-bsckTw542Vw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TiUXkbZ0Ee-bsckTw542Vw" x="94" y="9"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_dAv5gLZ3Ee-bsckTw542Vw" type="OpaqueAction_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_dAv5grZ3Ee-bsckTw542Vw" type="OpaqueAction_NameLabel"/>
+              <children xmi:type="notation:DecorationNode" xmi:id="_dAv5g7Z3Ee-bsckTw542Vw" type="OpaqueAction_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_dAv5hLZ3Ee-bsckTw542Vw" y="15"/>
+              </children>
+              <element xmi:type="uml:OpaqueAction" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_QqxisLZ0Ee-bsckTw542Vw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dAv5hbZ3Ee-bsckTw542Vw" x="54" y="1009"/>
+            </children>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ek3g1rZ0Ee-bsckTw542Vw"/>
+          </children>
+          <element xmi:type="uml:ActivityPartition" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_-QlfULZzEe-bsckTw542Vw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ek3g0bZ0Ee-bsckTw542Vw" x="35" y="104" width="261" height="1181"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_Ek59GrZ0Ee-bsckTw542Vw" type="StereotypeComment">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_Ek59G7Z0Ee-bsckTw542Vw"/>
+          <styles xmi:type="notation:EObjectValueStyle" xmi:id="_Ek59HbZ0Ee-bsckTw542Vw" name="BASE_ELEMENT">
+            <eObjectValue xmi:type="uml:ActivityPartition" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_-QlfULZzEe-bsckTw542Vw"/>
+          </styles>
+          <element xsi:nil="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ek59HLZ0Ee-bsckTw542Vw" x="200"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_E2li8LZ0Ee-bsckTw542Vw" type="ActivityPartition_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_E2li8rZ0Ee-bsckTw542Vw" type="ActivityPartition_NameLabel"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_E2li87Z0Ee-bsckTw542Vw" type="ActivityPartition_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_E2li9LZ0Ee-bsckTw542Vw" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_E2li9bZ0Ee-bsckTw542Vw" type="ActivityPartition_ActivityNodeCompartment">
+            <children xmi:type="notation:Shape" xmi:id="_2iUhMLZ1Ee-bsckTw542Vw" type="OpaqueAction_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_2iVIQLZ1Ee-bsckTw542Vw" type="OpaqueAction_NameLabel"/>
+              <children xmi:type="notation:DecorationNode" xmi:id="_2iVIQbZ1Ee-bsckTw542Vw" type="OpaqueAction_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_2iVIQrZ1Ee-bsckTw542Vw" y="15"/>
+              </children>
+              <element xmi:type="uml:OpaqueAction" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_QfEpALZ0Ee-bsckTw542Vw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2iVIQ7Z1Ee-bsckTw542Vw" x="74" y="149"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="__FFzgLZ1Ee-bsckTw542Vw" type="OpaqueAction_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="__FFzgrZ1Ee-bsckTw542Vw" type="OpaqueAction_NameLabel"/>
+              <children xmi:type="notation:DecorationNode" xmi:id="__FFzg7Z1Ee-bsckTw542Vw" type="OpaqueAction_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="__FFzhLZ1Ee-bsckTw542Vw" y="15"/>
+              </children>
+              <element xmi:type="uml:OpaqueAction" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_QgdJELZ0Ee-bsckTw542Vw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="__FFzhbZ1Ee-bsckTw542Vw" x="54" y="289"/>
+            </children>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_E2li9rZ0Ee-bsckTw542Vw"/>
+          </children>
+          <element xmi:type="uml:ActivityPartition" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_-sbt0LZzEe-bsckTw542Vw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_E2li8bZ0Ee-bsckTw542Vw" x="295" y="104" width="281" height="1181"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_E2n_OrZ0Ee-bsckTw542Vw" type="StereotypeComment">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_E2n_O7Z0Ee-bsckTw542Vw"/>
+          <styles xmi:type="notation:EObjectValueStyle" xmi:id="_E2n_PbZ0Ee-bsckTw542Vw" name="BASE_ELEMENT">
+            <eObjectValue xmi:type="uml:ActivityPartition" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_-sbt0LZzEe-bsckTw542Vw"/>
+          </styles>
+          <element xsi:nil="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_E2n_PLZ0Ee-bsckTw542Vw" x="200"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_FKJ_MLZ0Ee-bsckTw542Vw" type="ActivityPartition_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_FKJ_MrZ0Ee-bsckTw542Vw" type="ActivityPartition_NameLabel"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_FKJ_M7Z0Ee-bsckTw542Vw" type="ActivityPartition_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_FKJ_NLZ0Ee-bsckTw542Vw" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_FKJ_NbZ0Ee-bsckTw542Vw" type="ActivityPartition_ActivityNodeCompartment">
+            <children xmi:type="notation:Shape" xmi:id="_d7m0sLZ2Ee-bsckTw542Vw" type="OpaqueAction_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_d7nbwLZ2Ee-bsckTw542Vw" type="OpaqueAction_NameLabel"/>
+              <children xmi:type="notation:DecorationNode" xmi:id="_d7nbwbZ2Ee-bsckTw542Vw" type="OpaqueAction_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_d7nbwrZ2Ee-bsckTw542Vw" y="15"/>
+              </children>
+              <element xmi:type="uml:OpaqueAction" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_Qkjl8LZ0Ee-bsckTw542Vw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_d7nbw7Z2Ee-bsckTw542Vw" x="94" y="509"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_io9UoLZ2Ee-bsckTw542Vw" type="OpaqueAction_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_io9UorZ2Ee-bsckTw542Vw" type="OpaqueAction_NameLabel"/>
+              <children xmi:type="notation:DecorationNode" xmi:id="_io9Uo7Z2Ee-bsckTw542Vw" type="OpaqueAction_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_io9UpLZ2Ee-bsckTw542Vw" y="15"/>
+              </children>
+              <element xmi:type="uml:OpaqueAction" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_QmGeELZ0Ee-bsckTw542Vw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_io9UpbZ2Ee-bsckTw542Vw" x="94" y="609"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_E9R5cLZ3Ee-bsckTw542Vw" type="OpaqueAction_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_E9SggLZ3Ee-bsckTw542Vw" type="OpaqueAction_NameLabel"/>
+              <children xmi:type="notation:DecorationNode" xmi:id="_E9SggbZ3Ee-bsckTw542Vw" type="OpaqueAction_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_E9SggrZ3Ee-bsckTw542Vw" y="15"/>
+              </children>
+              <element xmi:type="uml:OpaqueAction" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_QpH84LZ0Ee-bsckTw542Vw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_E9Sgg7Z3Ee-bsckTw542Vw" x="74" y="789"/>
+            </children>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FKJ_NrZ0Ee-bsckTw542Vw"/>
+          </children>
+          <element xmi:type="uml:ActivityPartition" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_-v3cULZzEe-bsckTw542Vw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FKJ_MbZ0Ee-bsckTw542Vw" x="575" y="104" width="261" height="1181"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_FKMbd7Z0Ee-bsckTw542Vw" type="StereotypeComment">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_FKMbeLZ0Ee-bsckTw542Vw"/>
+          <styles xmi:type="notation:EObjectValueStyle" xmi:id="_FKMberZ0Ee-bsckTw542Vw" name="BASE_ELEMENT">
+            <eObjectValue xmi:type="uml:ActivityPartition" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_-v3cULZzEe-bsckTw542Vw"/>
+          </styles>
+          <element xsi:nil="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FKMbebZ0Ee-bsckTw542Vw" x="200"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_FiiC8LZ0Ee-bsckTw542Vw" type="ActivityPartition_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_FiiC8rZ0Ee-bsckTw542Vw" type="ActivityPartition_NameLabel"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_FiiC87Z0Ee-bsckTw542Vw" type="ActivityPartition_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_FiiC9LZ0Ee-bsckTw542Vw" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_FiiC9bZ0Ee-bsckTw542Vw" type="ActivityPartition_ActivityNodeCompartment">
+            <children xmi:type="notation:Shape" xmi:id="_mapIcLZ0Ee-bsckTw542Vw" type="OpaqueAction_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_maqWkLZ0Ee-bsckTw542Vw" type="OpaqueAction_NameLabel"/>
+              <children xmi:type="notation:DecorationNode" xmi:id="_maqWkbZ0Ee-bsckTw542Vw" type="OpaqueAction_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_maqWkrZ0Ee-bsckTw542Vw" y="15"/>
+              </children>
+              <element xmi:type="uml:OpaqueAction" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_Qbl3MLZ0Ee-bsckTw542Vw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_maqWk7Z0Ee-bsckTw542Vw" x="74" y="69"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_Sf40wLZ1Ee-bsckTw542Vw" type="DecisionNode_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_Sf40wrZ1Ee-bsckTw542Vw" type="DecisionNode_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_Sf40w7Z1Ee-bsckTw542Vw" y="15"/>
+              </children>
+              <children xmi:type="notation:DecorationNode" xmi:id="_Sf40xLZ1Ee-bsckTw542Vw" type="DecisionNode_DecisionInputLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_Sf40xbZ1Ee-bsckTw542Vw" y="15"/>
+              </children>
+              <children xmi:type="notation:DecorationNode" xmi:id="_Sf40xrZ1Ee-bsckTw542Vw" type="DecisionNode_StereotypeLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_Sf40x7Z1Ee-bsckTw542Vw" y="15"/>
+              </children>
+              <element xmi:type="uml:DecisionNode" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_SfzVMLZ1Ee-bsckTw542Vw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Sf40wbZ1Ee-bsckTw542Vw" x="109" y="140"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_VBTooLZ1Ee-bsckTw542Vw" type="OpaqueAction_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_VBToorZ1Ee-bsckTw542Vw" type="OpaqueAction_NameLabel"/>
+              <children xmi:type="notation:DecorationNode" xmi:id="_VBToo7Z1Ee-bsckTw542Vw" type="OpaqueAction_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_VBTopLZ1Ee-bsckTw542Vw" y="15"/>
+              </children>
+              <element xmi:type="uml:OpaqueAction" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_QdpFoLZ0Ee-bsckTw542Vw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VBTopbZ1Ee-bsckTw542Vw" x="74" y="209"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_CXxFMLZ2Ee-bsckTw542Vw" type="OpaqueAction_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_CXxFMrZ2Ee-bsckTw542Vw" type="OpaqueAction_NameLabel"/>
+              <children xmi:type="notation:DecorationNode" xmi:id="_CXxFM7Z2Ee-bsckTw542Vw" type="OpaqueAction_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_CXxFNLZ2Ee-bsckTw542Vw" y="15"/>
+              </children>
+              <element xmi:type="uml:OpaqueAction" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_Qh23QLZ0Ee-bsckTw542Vw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CXxFNbZ2Ee-bsckTw542Vw" x="74" y="309"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_EU-YwLZ2Ee-bsckTw542Vw" type="DecisionNode_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_EU-_0LZ2Ee-bsckTw542Vw" type="DecisionNode_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_EU-_0bZ2Ee-bsckTw542Vw" y="15"/>
+              </children>
+              <children xmi:type="notation:DecorationNode" xmi:id="_EU-_0rZ2Ee-bsckTw542Vw" type="DecisionNode_DecisionInputLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_EU-_07Z2Ee-bsckTw542Vw" y="15"/>
+              </children>
+              <children xmi:type="notation:DecorationNode" xmi:id="_EU-_1LZ2Ee-bsckTw542Vw" type="DecisionNode_StereotypeLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_EU-_1bZ2Ee-bsckTw542Vw" y="15"/>
+              </children>
+              <element xmi:type="uml:DecisionNode" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_EU45MLZ2Ee-bsckTw542Vw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EU-YwbZ2Ee-bsckTw542Vw" x="94" y="389"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_PIb7ULZ2Ee-bsckTw542Vw" type="OpaqueAction_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_PIb7UrZ2Ee-bsckTw542Vw" type="OpaqueAction_NameLabel"/>
+              <children xmi:type="notation:DecorationNode" xmi:id="_PIb7U7Z2Ee-bsckTw542Vw" type="OpaqueAction_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_PIb7VLZ2Ee-bsckTw542Vw" y="15"/>
+              </children>
+              <element xmi:type="uml:OpaqueAction" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_QjRzkLZ0Ee-bsckTw542Vw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PIdJcLZ2Ee-bsckTw542Vw" x="14" y="449" width="207" height="41"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_gRuXgLZ2Ee-bsckTw542Vw" type="DecisionNode_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_gRuXgrZ2Ee-bsckTw542Vw" type="DecisionNode_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_gRuXg7Z2Ee-bsckTw542Vw" y="15"/>
+              </children>
+              <children xmi:type="notation:DecorationNode" xmi:id="_gRuXhLZ2Ee-bsckTw542Vw" type="DecisionNode_DecisionInputLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_gRuXhbZ2Ee-bsckTw542Vw" y="15"/>
+              </children>
+              <children xmi:type="notation:DecorationNode" xmi:id="_gRuXhrZ2Ee-bsckTw542Vw" type="DecisionNode_StereotypeLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_gRuXh7Z2Ee-bsckTw542Vw" y="15"/>
+              </children>
+              <element xmi:type="uml:DecisionNode" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_gRnp0LZ2Ee-bsckTw542Vw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gRuXgbZ2Ee-bsckTw542Vw" x="89" y="532"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_2bHQgLZ2Ee-bsckTw542Vw" type="OpaqueAction_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_2bHQgrZ2Ee-bsckTw542Vw" type="OpaqueAction_NameLabel"/>
+              <children xmi:type="notation:DecorationNode" xmi:id="_2bHQg7Z2Ee-bsckTw542Vw" type="OpaqueAction_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_2bHQhLZ2Ee-bsckTw542Vw" y="15"/>
+              </children>
+              <element xmi:type="uml:OpaqueAction" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_QnqkULZ0Ee-bsckTw542Vw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2bHQhbZ2Ee-bsckTw542Vw" x="74" y="869"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_258hkLZ2Ee-bsckTw542Vw" type="DecisionNode_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_258hkrZ2Ee-bsckTw542Vw" type="DecisionNode_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_258hk7Z2Ee-bsckTw542Vw" y="15"/>
+              </children>
+              <children xmi:type="notation:DecorationNode" xmi:id="_258hlLZ2Ee-bsckTw542Vw" type="DecisionNode_DecisionInputLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_258hlbZ2Ee-bsckTw542Vw" y="15"/>
+              </children>
+              <children xmi:type="notation:DecorationNode" xmi:id="_258hlrZ2Ee-bsckTw542Vw" type="DecisionNode_StereotypeLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_258hl7Z2Ee-bsckTw542Vw" y="15"/>
+              </children>
+              <element xmi:type="uml:DecisionNode" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_251M0LZ2Ee-bsckTw542Vw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_258hkbZ2Ee-bsckTw542Vw" x="114" y="689"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_THi_wLZ3Ee-bsckTw542Vw" type="DecisionNode_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_THi_wrZ3Ee-bsckTw542Vw" type="DecisionNode_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_THi_w7Z3Ee-bsckTw542Vw" y="15"/>
+              </children>
+              <children xmi:type="notation:DecorationNode" xmi:id="_THi_xLZ3Ee-bsckTw542Vw" type="DecisionNode_DecisionInputLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_THi_xbZ3Ee-bsckTw542Vw" y="15"/>
+              </children>
+              <children xmi:type="notation:DecorationNode" xmi:id="_THi_xrZ3Ee-bsckTw542Vw" type="DecisionNode_StereotypeLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_THi_x7Z3Ee-bsckTw542Vw" y="15"/>
+              </children>
+              <element xmi:type="uml:DecisionNode" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_THYnsLZ3Ee-bsckTw542Vw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_THi_wbZ3Ee-bsckTw542Vw" x="114" y="949"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_elhe8LZ3Ee-bsckTw542Vw" type="OpaqueAction_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_elhe8rZ3Ee-bsckTw542Vw" type="OpaqueAction_NameLabel"/>
+              <children xmi:type="notation:DecorationNode" xmi:id="_elhe87Z3Ee-bsckTw542Vw" type="OpaqueAction_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_elhe9LZ3Ee-bsckTw542Vw" y="15"/>
+              </children>
+              <element xmi:type="uml:OpaqueAction" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_QsfZ8LZ0Ee-bsckTw542Vw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_elhe9bZ3Ee-bsckTw542Vw" x="54" y="1009"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_fmjeILZ3Ee-bsckTw542Vw" type="ActivityFinalNode_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_fmjeIrZ3Ee-bsckTw542Vw" type="ActivityFinalNode_FloatingNameLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_fmjeI7Z3Ee-bsckTw542Vw" y="15"/>
+              </children>
+              <children xmi:type="notation:DecorationNode" xmi:id="_fmjeJLZ3Ee-bsckTw542Vw" type="ActivityFinalNode_StereotypeLabel">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_fmjeJbZ3Ee-bsckTw542Vw" y="15"/>
+              </children>
+              <element xmi:type="uml:ActivityFinalNode" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_fmaUMLZ3Ee-bsckTw542Vw"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fmjeIbZ3Ee-bsckTw542Vw" x="94" y="1069"/>
+            </children>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FiiC9rZ0Ee-bsckTw542Vw"/>
+          </children>
+          <element xmi:type="uml:ActivityPartition" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_-zHkoLZzEe-bsckTw542Vw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FiiC8bZ0Ee-bsckTw542Vw" x="835" y="104" width="261" height="1181"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_FikfOrZ0Ee-bsckTw542Vw" type="StereotypeComment">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_FikfO7Z0Ee-bsckTw542Vw"/>
+          <styles xmi:type="notation:EObjectValueStyle" xmi:id="_FikfPbZ0Ee-bsckTw542Vw" name="BASE_ELEMENT">
+            <eObjectValue xmi:type="uml:ActivityPartition" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_-zHkoLZzEe-bsckTw542Vw"/>
+          </styles>
+          <element xsi:nil="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FikfPLZ0Ee-bsckTw542Vw" x="200"/>
+        </children>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8Dy3sbZzEe-bsckTw542Vw"/>
+      </children>
+      <element xmi:type="uml:Activity" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_46MpcLZzEe-bsckTw542Vw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8Dy3srZzEe-bsckTw542Vw" width="1521" height="1360"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_8Dy3s7ZzEe-bsckTw542Vw" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_8Dy3tLZzEe-bsckTw542Vw"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_8Dy3tbZzEe-bsckTw542Vw" diagramKindId="org.eclipse.papyrus.sysml16.diagram.activity">
+      <owner xmi:type="uml:Package" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_JiKeELZwEe-bsckTw542Vw"/>
+    </styles>
+    <element xmi:type="uml:Activity" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_46MpcLZzEe-bsckTw542Vw"/>
+    <edges xmi:type="notation:Connector" xmi:id="_Ek59HrZ0Ee-bsckTw542Vw" type="StereotypeCommentLink" source="_Ek3g0LZ0Ee-bsckTw542Vw" target="_Ek59GrZ0Ee-bsckTw542Vw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_Ek59H7Z0Ee-bsckTw542Vw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_Ek6kILZ0Ee-bsckTw542Vw" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:ActivityPartition" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_-QlfULZzEe-bsckTw542Vw"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Ek59ILZ0Ee-bsckTw542Vw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ek59IbZ0Ee-bsckTw542Vw"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ek59IrZ0Ee-bsckTw542Vw"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_E2n_PrZ0Ee-bsckTw542Vw" type="StereotypeCommentLink" source="_E2li8LZ0Ee-bsckTw542Vw" target="_E2n_OrZ0Ee-bsckTw542Vw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_E2n_P7Z0Ee-bsckTw542Vw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_E2n_Q7Z0Ee-bsckTw542Vw" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:ActivityPartition" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_-sbt0LZzEe-bsckTw542Vw"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_E2n_QLZ0Ee-bsckTw542Vw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_E2n_QbZ0Ee-bsckTw542Vw"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_E2n_QrZ0Ee-bsckTw542Vw"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_FKMbe7Z0Ee-bsckTw542Vw" type="StereotypeCommentLink" source="_FKJ_MLZ0Ee-bsckTw542Vw" target="_FKMbd7Z0Ee-bsckTw542Vw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_FKMbfLZ0Ee-bsckTw542Vw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_FKMbgLZ0Ee-bsckTw542Vw" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:ActivityPartition" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_-v3cULZzEe-bsckTw542Vw"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_FKMbfbZ0Ee-bsckTw542Vw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FKMbfrZ0Ee-bsckTw542Vw"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FKMbf7Z0Ee-bsckTw542Vw"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_FikfPrZ0Ee-bsckTw542Vw" type="StereotypeCommentLink" source="_FiiC8LZ0Ee-bsckTw542Vw" target="_FikfOrZ0Ee-bsckTw542Vw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_FikfP7Z0Ee-bsckTw542Vw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_FikfQ7Z0Ee-bsckTw542Vw" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:ActivityPartition" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_-zHkoLZzEe-bsckTw542Vw"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_FikfQLZ0Ee-bsckTw542Vw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FikfQbZ0Ee-bsckTw542Vw"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FikfQrZ0Ee-bsckTw542Vw"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_VNHsgLZ0Ee-bsckTw542Vw" type="ControlFlow_Edge" source="_TiUXkLZ0Ee-bsckTw542Vw" target="_RJpQALZ0Ee-bsckTw542Vw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_VNHsg7Z0Ee-bsckTw542Vw" type="ControlFlow_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_V2VooLZ0Ee-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_VNHshLZ0Ee-bsckTw542Vw" x="4" y="17"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_VNHshbZ0Ee-bsckTw542Vw" type="ControlFlow_WeightLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_V2Yr8LZ0Ee-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_VNHshrZ0Ee-bsckTw542Vw" x="1" y="18"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_VNHsh7Z0Ee-bsckTw542Vw" type="ControlFlow_GuardLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_V2bvQLZ0Ee-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_VNHsiLZ0Ee-bsckTw542Vw" x="3" y="18"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_VNHsibZ0Ee-bsckTw542Vw" type="ControlFlow_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_V2eykLZ0Ee-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_VNHsirZ0Ee-bsckTw542Vw" y="-19"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_VNHsgbZ0Ee-bsckTw542Vw"/>
+      <element xmi:type="uml:ControlFlow" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_VNCM8LZ0Ee-bsckTw542Vw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_VNHsgrZ0Ee-bsckTw542Vw" points="[154, 217, -643984, -643984]$[150, 240, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_VNPoULZ0Ee-bsckTw542Vw" id="(0.709999999999998,0.8700000000000003)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_VNPoUbZ0Ee-bsckTw542Vw" id="(0.43478260869565216,0.275)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_nPEPALZ0Ee-bsckTw542Vw" type="ControlFlow_Edge" source="_RJpQALZ0Ee-bsckTw542Vw" target="_mapIcLZ0Ee-bsckTw542Vw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_nPEPA7Z0Ee-bsckTw542Vw" type="ControlFlow_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_nczJALZ0Ee-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_nPEPBLZ0Ee-bsckTw542Vw" x="-107" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_nPEPBbZ0Ee-bsckTw542Vw" type="ControlFlow_WeightLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_nc4BgLZ0Ee-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_nPEPBrZ0Ee-bsckTw542Vw" y="19"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_nPEPB7Z0Ee-bsckTw542Vw" type="ControlFlow_GuardLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_nc7E0LZ0Ee-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_nPEPCLZ0Ee-bsckTw542Vw" x="105" y="18"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_nPEPCbZ0Ee-bsckTw542Vw" type="ControlFlow_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_nc-vMLZ0Ee-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_nPEPCrZ0Ee-bsckTw542Vw" x="1" y="-18"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_nPEPAbZ0Ee-bsckTw542Vw"/>
+      <element xmi:type="uml:ControlFlow" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_nO_9kLZ0Ee-bsckTw542Vw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nPEPArZ0Ee-bsckTw542Vw" points="[8, 0, -710, 18]$[713, -18, -5, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nPLjwLZ0Ee-bsckTw542Vw" id="(0.9304347826086956,0.5)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nPLjwbZ0Ee-bsckTw542Vw" id="(0.0,0.4)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_vEbMQLZ1Ee-bsckTw542Vw" type="ControlFlow_Edge" source="_Sf40wLZ1Ee-bsckTw542Vw" target="_VBTooLZ1Ee-bsckTw542Vw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_vEcaYLZ1Ee-bsckTw542Vw" type="ControlFlow_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_vEcaYbZ1Ee-bsckTw542Vw" x="-5" y="-44"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_vEcaYrZ1Ee-bsckTw542Vw" type="ControlFlow_WeightLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_vEcaY7Z1Ee-bsckTw542Vw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_vEcaZLZ1Ee-bsckTw542Vw" type="ControlFlow_GuardLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_vEcaZbZ1Ee-bsckTw542Vw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_vEcaZrZ1Ee-bsckTw542Vw" type="ControlFlow_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_vEcaZ7Z1Ee-bsckTw542Vw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_vEbMQbZ1Ee-bsckTw542Vw"/>
+      <element xmi:type="uml:ControlFlow" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_vEVFoLZ1Ee-bsckTw542Vw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_vEbMQrZ1Ee-bsckTw542Vw" points="[960, 353, -643984, -643984]$[966, 400, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vEk9QLZ1Ee-bsckTw542Vw" id="(0.55,0.9666666666666667)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vEk9QbZ1Ee-bsckTw542Vw" id="(0.46938775510204084,0.3)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_AG09ULZ2Ee-bsckTw542Vw" type="ControlFlow_Edge" source="_mapIcLZ0Ee-bsckTw542Vw" target="_Sf40wLZ1Ee-bsckTw542Vw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_AG09U7Z2Ee-bsckTw542Vw" type="ControlFlow_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_AG09VLZ2Ee-bsckTw542Vw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_AG09VbZ2Ee-bsckTw542Vw" type="ControlFlow_WeightLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_AG09VrZ2Ee-bsckTw542Vw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_AG1kYLZ2Ee-bsckTw542Vw" type="ControlFlow_GuardLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_AG1kYbZ2Ee-bsckTw542Vw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_AG1kYrZ2Ee-bsckTw542Vw" type="ControlFlow_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_AG1kY7Z2Ee-bsckTw542Vw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_AG09UbZ2Ee-bsckTw542Vw"/>
+      <element xmi:type="uml:ControlFlow" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_AGtokLZ2Ee-bsckTw542Vw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_AG09UrZ2Ee-bsckTw542Vw" points="[0, 7, 849, 155]$[0, 47, 849, 195]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AG-uULZ2Ee-bsckTw542Vw" id="(0.5,0.825)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AG-uUbZ2Ee-bsckTw542Vw" id="(0.65,0.16666666666666666)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_jz5dwLZ2Ee-bsckTw542Vw" type="ControlFlow_Edge" source="_Sf40wLZ1Ee-bsckTw542Vw" target="_2iUhMLZ1Ee-bsckTw542Vw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_jz6E0LZ2Ee-bsckTw542Vw" type="ControlFlow_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jz6E0bZ2Ee-bsckTw542Vw" x="-396" y="23"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_jz6E0rZ2Ee-bsckTw542Vw" type="ControlFlow_WeightLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jz6E07Z2Ee-bsckTw542Vw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_jz6E1LZ2Ee-bsckTw542Vw" type="ControlFlow_GuardLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jz6E1bZ2Ee-bsckTw542Vw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_jz6E1rZ2Ee-bsckTw542Vw" type="ControlFlow_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jz6E17Z2Ee-bsckTw542Vw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_jz5dwbZ2Ee-bsckTw542Vw"/>
+      <element xmi:type="uml:ControlFlow" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_jzyJALZ2Ee-bsckTw542Vw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_jz5dwrZ2Ee-bsckTw542Vw" points="[960, 353, -643984, -643984]$[464, 360, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_j0G5ILZ2Ee-bsckTw542Vw" id="(0.25,0.75)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_j0G5IbZ2Ee-bsckTw542Vw" id="(0.9642857142857143,0.575)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_kT_6ILZ2Ee-bsckTw542Vw" type="ControlFlow_Edge" source="_2iUhMLZ1Ee-bsckTw542Vw" target="__FFzgLZ1Ee-bsckTw542Vw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_kT_6I7Z2Ee-bsckTw542Vw" type="ControlFlow_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_kT_6JLZ2Ee-bsckTw542Vw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_kT_6JbZ2Ee-bsckTw542Vw" type="ControlFlow_WeightLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_kT_6JrZ2Ee-bsckTw542Vw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_kT_6J7Z2Ee-bsckTw542Vw" type="ControlFlow_GuardLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_kT_6KLZ2Ee-bsckTw542Vw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_kT_6KbZ2Ee-bsckTw542Vw" type="ControlFlow_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_kT_6KrZ2Ee-bsckTw542Vw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_kT_6IbZ2Ee-bsckTw542Vw"/>
+      <element xmi:type="uml:ControlFlow" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_kT4lYLZ2Ee-bsckTw542Vw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_kT_6IrZ2Ee-bsckTw542Vw" points="[0, 3, 2, -113]$[-2, 103, 0, -13]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kUN8kLZ2Ee-bsckTw542Vw" id="(0.4880952380952381,0.925)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kUN8kbZ2Ee-bsckTw542Vw" id="(0.44696969696969696,0.325)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_lIMXMLZ2Ee-bsckTw542Vw" type="ControlFlow_Edge" source="__FFzgLZ1Ee-bsckTw542Vw" target="_CXxFMLZ2Ee-bsckTw542Vw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_lIMXM7Z2Ee-bsckTw542Vw" type="ControlFlow_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_lIMXNLZ2Ee-bsckTw542Vw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_lIMXNbZ2Ee-bsckTw542Vw" type="ControlFlow_WeightLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_lIMXNrZ2Ee-bsckTw542Vw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_lIMXN7Z2Ee-bsckTw542Vw" type="ControlFlow_GuardLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_lIMXOLZ2Ee-bsckTw542Vw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_lIMXObZ2Ee-bsckTw542Vw" type="ControlFlow_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_lIMXOrZ2Ee-bsckTw542Vw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_lIMXMbZ2Ee-bsckTw542Vw"/>
+      <element xmi:type="uml:ControlFlow" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_lIEbYLZ2Ee-bsckTw542Vw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_lIMXMrZ2Ee-bsckTw542Vw" points="[6, -1, -440, -18]$[434, 17, -12, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lIaZoLZ2Ee-bsckTw542Vw" id="(0.9545454545454546,0.525)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lIbAsLZ2Ee-bsckTw542Vw" id="(0.12371134020618557,0.45)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_lvJpgLZ2Ee-bsckTw542Vw" type="ControlFlow_Edge" source="_CXxFMLZ2Ee-bsckTw542Vw" target="_EU-YwLZ2Ee-bsckTw542Vw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_lvJpg7Z2Ee-bsckTw542Vw" type="ControlFlow_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_lvJphLZ2Ee-bsckTw542Vw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_lvJphbZ2Ee-bsckTw542Vw" type="ControlFlow_WeightLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_lvJphrZ2Ee-bsckTw542Vw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_lvJph7Z2Ee-bsckTw542Vw" type="ControlFlow_GuardLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_lvJpiLZ2Ee-bsckTw542Vw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_lvJpibZ2Ee-bsckTw542Vw" type="ControlFlow_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_lvJpirZ2Ee-bsckTw542Vw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_lvJpgbZ2Ee-bsckTw542Vw"/>
+      <element xmi:type="uml:ControlFlow" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_lvC70LZ2Ee-bsckTw542Vw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_lvJpgrZ2Ee-bsckTw542Vw" points="[0, 12, 850, 142]$[-5, 52, 845, 182]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lvXr8LZ2Ee-bsckTw542Vw" id="(0.36082474226804123,0.7)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lvXr8bZ2Ee-bsckTw542Vw" id="(0.55,0.3)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_mqLHULZ2Ee-bsckTw542Vw" type="ControlFlow_Edge" source="_EU-YwLZ2Ee-bsckTw542Vw" target="_PIb7ULZ2Ee-bsckTw542Vw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_mqLHU7Z2Ee-bsckTw542Vw" type="ControlFlow_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_mqLHVLZ2Ee-bsckTw542Vw" x="-20" y="-66"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_mqLuYLZ2Ee-bsckTw542Vw" type="ControlFlow_WeightLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_mqLuYbZ2Ee-bsckTw542Vw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_mqLuYrZ2Ee-bsckTw542Vw" type="ControlFlow_GuardLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_mqLuY7Z2Ee-bsckTw542Vw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_mqLuZLZ2Ee-bsckTw542Vw" type="ControlFlow_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_mqLuZbZ2Ee-bsckTw542Vw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_mqLHUbZ2Ee-bsckTw542Vw"/>
+      <element xmi:type="uml:ControlFlow" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_mqDLgLZ2Ee-bsckTw542Vw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mqLHUrZ2Ee-bsckTw542Vw" points="[947, 602, -643984, -643984]$[957, 642, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mqZw0LZ2Ee-bsckTw542Vw" id="(1.0,0.5)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mqZw0bZ2Ee-bsckTw542Vw" id="(0.4492753623188406,0.34146341463414637)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_oBccQLZ2Ee-bsckTw542Vw" type="ControlFlow_Edge" source="_EU-YwLZ2Ee-bsckTw542Vw" target="_2iUhMLZ1Ee-bsckTw542Vw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_oBccQ7Z2Ee-bsckTw542Vw" type="ControlFlow_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_okzA8LZ2Ee-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_oBccRLZ2Ee-bsckTw542Vw" x="513" y="227"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_oBccRbZ2Ee-bsckTw542Vw" type="ControlFlow_WeightLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_ok5uoLZ2Ee-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_oBccRrZ2Ee-bsckTw542Vw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_oBccR7Z2Ee-bsckTw542Vw" type="ControlFlow_GuardLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_olCRgLZ2Ee-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_oBccSLZ2Ee-bsckTw542Vw" x="130" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_oBccSbZ2Ee-bsckTw542Vw" type="ControlFlow_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_olIYILZ2Ee-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_oBccSrZ2Ee-bsckTw542Vw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_oBccQbZ2Ee-bsckTw542Vw"/>
+      <element xmi:type="uml:ControlFlow" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_oBSrQLZ2Ee-bsckTw542Vw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_oBccQrZ2Ee-bsckTw542Vw" points="[943, 600, -643984, -643984]$[320, 600, -643984, -643984]$[320, 363, -643984, -643984]$[380, 363, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_oBrFwLZ2Ee-bsckTw542Vw" id="(0.15,0.6666666666666666)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_oBrFwbZ2Ee-bsckTw542Vw" id="(0.0,0.575)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_qlBzULZ2Ee-bsckTw542Vw" type="ControlFlow_Edge" source="_PIb7ULZ2Ee-bsckTw542Vw" target="_gRuXgLZ2Ee-bsckTw542Vw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_qlBzU7Z2Ee-bsckTw542Vw" type="ControlFlow_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qlBzVLZ2Ee-bsckTw542Vw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_qlBzVbZ2Ee-bsckTw542Vw" type="ControlFlow_WeightLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qlBzVrZ2Ee-bsckTw542Vw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_qlBzV7Z2Ee-bsckTw542Vw" type="ControlFlow_GuardLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qlBzWLZ2Ee-bsckTw542Vw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_qlBzWbZ2Ee-bsckTw542Vw" type="ControlFlow_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qlBzWrZ2Ee-bsckTw542Vw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_qlBzUbZ2Ee-bsckTw542Vw"/>
+      <element xmi:type="uml:ControlFlow" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_qk4pYLZ2Ee-bsckTw542Vw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qlBzUrZ2Ee-bsckTw542Vw" points="[-8, 7, 837, 139]$[5, 66, 850, 198]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qlQc0LZ2Ee-bsckTw542Vw" id="(0.4057971014492754,0.8292682926829268)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qlQc0bZ2Ee-bsckTw542Vw" id="(0.7,0.3333333333333333)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_rPyAgLZ2Ee-bsckTw542Vw" type="ControlFlow_Edge" source="_gRuXgLZ2Ee-bsckTw542Vw" target="_d7m0sLZ2Ee-bsckTw542Vw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_rPyAg7Z2Ee-bsckTw542Vw" type="ControlFlow_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_rPyAhLZ2Ee-bsckTw542Vw" x="-100" y="4"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_rPyAhbZ2Ee-bsckTw542Vw" type="ControlFlow_WeightLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_rPyAhrZ2Ee-bsckTw542Vw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_rPyAh7Z2Ee-bsckTw542Vw" type="ControlFlow_GuardLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_rPyAiLZ2Ee-bsckTw542Vw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_rPyAibZ2Ee-bsckTw542Vw" type="ControlFlow_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_rPyAirZ2Ee-bsckTw542Vw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_rPyAgbZ2Ee-bsckTw542Vw"/>
+      <element xmi:type="uml:ControlFlow" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_rPoPgLZ2Ee-bsckTw542Vw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_rPyAgrZ2Ee-bsckTw542Vw" points="[936, 740, -643984, -643984]$[773, 720, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rQBRELZ2Ee-bsckTw542Vw" id="(0.06666666666666857,0.5666666666666667)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rQB4ILZ2Ee-bsckTw542Vw" id="(0.8709677419354839,0.65)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_sBLBMLZ2Ee-bsckTw542Vw" type="ControlFlow_Edge" source="_gRuXgLZ2Ee-bsckTw542Vw" target="_io9UoLZ2Ee-bsckTw542Vw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_sBLBM7Z2Ee-bsckTw542Vw" type="ControlFlow_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_spMDcLZ2Ee-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_sBLBNLZ2Ee-bsckTw542Vw" x="-209" y="50"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_sBLBNbZ2Ee-bsckTw542Vw" type="ControlFlow_WeightLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_spTYMLZ2Ee-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_sBLBNrZ2Ee-bsckTw542Vw" x="-1" y="18"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_sBLBN7Z2Ee-bsckTw542Vw" type="ControlFlow_GuardLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_spb7ELZ2Ee-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_sBLBOLZ2Ee-bsckTw542Vw" x="39" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_sBLBObZ2Ee-bsckTw542Vw" type="ControlFlow_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_spiBsLZ2Ee-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_sBLBOrZ2Ee-bsckTw542Vw" x="-1" y="-18"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_sBLBMbZ2Ee-bsckTw542Vw"/>
+      <element xmi:type="uml:ControlFlow" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_sBB3QLZ2Ee-bsckTw542Vw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sBLBMrZ2Ee-bsckTw542Vw" points="[940, 746, -643984, -643984]$[940, 820, -643984, -643984]$[773, 820, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sBZDoLZ2Ee-bsckTw542Vw" id="(0.25,0.7666666666666667)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sBZDobZ2Ee-bsckTw542Vw" id="(1.0,0.5)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_33Uv0LZ2Ee-bsckTw542Vw" type="ControlFlow_Edge" source="_io9UoLZ2Ee-bsckTw542Vw" target="_258hkLZ2Ee-bsckTw542Vw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_33Uv07Z2Ee-bsckTw542Vw" type="ControlFlow_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_5a0i4LZ2Ee-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_33Uv1LZ2Ee-bsckTw542Vw" x="-58" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_33Uv1bZ2Ee-bsckTw542Vw" type="ControlFlow_WeightLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_5a8esLZ2Ee-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_33Uv1rZ2Ee-bsckTw542Vw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_33Uv17Z2Ee-bsckTw542Vw" type="ControlFlow_GuardLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_5bFBkLZ2Ee-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_33Uv2LZ2Ee-bsckTw542Vw" x="56" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_33Uv2bZ2Ee-bsckTw542Vw" type="ControlFlow_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_5bM9YLZ2Ee-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_33Uv2rZ2Ee-bsckTw542Vw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_33Uv0bZ2Ee-bsckTw542Vw"/>
+      <element xmi:type="uml:ControlFlow" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_33K-0LZ2Ee-bsckTw542Vw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_33Uv0rZ2Ee-bsckTw542Vw" points="[716, 840, -643984, -643984]$[716, 900, -643984, -643984]$[942, 900, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_33lOgLZ2Ee-bsckTw542Vw" id="(0.3870967741935484,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_33lOgbZ2Ee-bsckTw542Vw" id="(0.0,0.5333333333333333)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_7vLLILZ2Ee-bsckTw542Vw" type="ControlFlow_Edge" source="_258hkLZ2Ee-bsckTw542Vw" target="_2bHQgLZ2Ee-bsckTw542Vw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_7vLLI7Z2Ee-bsckTw542Vw" type="ControlFlow_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_F9PhoLZ3Ee-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_7vLLJLZ2Ee-bsckTw542Vw" x="-151" y="-18"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_7vLLJbZ2Ee-bsckTw542Vw" type="ControlFlow_WeightLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_F9YEgLZ3Ee-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_7vLLJrZ2Ee-bsckTw542Vw" x="2" y="17"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_7vLLJ7Z2Ee-bsckTw542Vw" type="ControlFlow_GuardLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_F9fZQLZ3Ee-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_7vLLKLZ2Ee-bsckTw542Vw" x="21" y="19"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_7vLLKbZ2Ee-bsckTw542Vw" type="ControlFlow_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_F9ojMLZ3Ee-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_7vLLKrZ2Ee-bsckTw542Vw" x="-1" y="-19"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_7vLLIbZ2Ee-bsckTw542Vw"/>
+      <element xmi:type="uml:ControlFlow" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_7vCBMLZ2Ee-bsckTw542Vw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7vLLIrZ2Ee-bsckTw542Vw" points="[732, 675, -643984, -643984]$[729, 750, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7vbCwLZ2Ee-bsckTw542Vw" id="(0.8333333333333315,0.6666666666666666)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7vbCwbZ2Ee-bsckTw542Vw" id="(0.49056603773584906,0.3)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_BBARILZ3Ee-bsckTw542Vw" type="ControlFlow_Edge" source="_d7m0sLZ2Ee-bsckTw542Vw" target="_2bHQgLZ2Ee-bsckTw542Vw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_BBARI7Z3Ee-bsckTw542Vw" type="ControlFlow_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_Be5HALZ3Ee-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_BBARJLZ3Ee-bsckTw542Vw" x="-112" y="18"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_BBARJbZ3Ee-bsckTw542Vw" type="ControlFlow_WeightLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_BfBp4LZ3Ee-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_BBARJrZ3Ee-bsckTw542Vw" x="1" y="18"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_BBARJ7Z3Ee-bsckTw542Vw" type="ControlFlow_GuardLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_BfJlsLZ3Ee-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_BBARKLZ3Ee-bsckTw542Vw" x="112" y="18"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_BBARKbZ3Ee-bsckTw542Vw" type="ControlFlow_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_BfSIkLZ3Ee-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_BBARKrZ3Ee-bsckTw542Vw" y="-19"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_BBARIbZ3Ee-bsckTw542Vw"/>
+      <element xmi:type="uml:ControlFlow" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_BA2gILZ3Ee-bsckTw542Vw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_BBARIrZ3Ee-bsckTw542Vw" points="[680, 720, -643984, -643984]$[600, 720, -643984, -643984]$[600, 1080, -643984, -643984]$[920, 1080, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_BBPhsLZ3Ee-bsckTw542Vw" id="(0.0,0.5)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_BBPhsbZ3Ee-bsckTw542Vw" id="(0.0,0.5)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_H11a8LZ3Ee-bsckTw542Vw" type="ControlFlow_Edge" source="_258hkLZ2Ee-bsckTw542Vw" target="_E9R5cLZ3Ee-bsckTw542Vw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_H11a87Z3Ee-bsckTw542Vw" type="ControlFlow_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_H11a9LZ3Ee-bsckTw542Vw" x="-141" y="14"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_H11a9bZ3Ee-bsckTw542Vw" type="ControlFlow_WeightLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_H11a9rZ3Ee-bsckTw542Vw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_H11a97Z3Ee-bsckTw542Vw" type="ControlFlow_GuardLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_H11a-LZ3Ee-bsckTw542Vw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_H11a-bZ3Ee-bsckTw542Vw" type="ControlFlow_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_H11a-rZ3Ee-bsckTw542Vw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_H11a8bZ3Ee-bsckTw542Vw"/>
+      <element xmi:type="uml:ControlFlow" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_H1rp8LZ3Ee-bsckTw542Vw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_H11a8rZ3Ee-bsckTw542Vw" points="[732, 675, -643984, -643984]$[534, 735, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_H2GgsLZ3Ee-bsckTw542Vw" id="(0.1,0.6666666666666666)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_H2GgsbZ3Ee-bsckTw542Vw" id="(0.49074074074074076,0.325)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_Zz0qgLZ3Ee-bsckTw542Vw" type="ControlFlow_Edge" source="_2bHQgLZ2Ee-bsckTw542Vw" target="_THi_wLZ3Ee-bsckTw542Vw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Zz0qg7Z3Ee-bsckTw542Vw" type="ControlFlow_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zz0qhLZ3Ee-bsckTw542Vw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_Zz0qhbZ3Ee-bsckTw542Vw" type="ControlFlow_WeightLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zz0qhrZ3Ee-bsckTw542Vw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_Zz0qh7Z3Ee-bsckTw542Vw" type="ControlFlow_GuardLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zz0qiLZ3Ee-bsckTw542Vw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_Zz0qibZ3Ee-bsckTw542Vw" type="ControlFlow_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zz0qirZ3Ee-bsckTw542Vw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_Zz0qgbZ3Ee-bsckTw542Vw"/>
+      <element xmi:type="uml:ControlFlow" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_ZzprYLZ3Ee-bsckTw542Vw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Zz0qgrZ3Ee-bsckTw542Vw" points="[845, 142, 837, 142]$[854, 182, 846, 182]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Z0GXULZ3Ee-bsckTw542Vw" id="(0.37735849056603776,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Z0GXUbZ3Ee-bsckTw542Vw" id="(0.5,0.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_hDpuQLZ3Ee-bsckTw542Vw" type="ControlFlow_Edge" source="_elhe8LZ3Ee-bsckTw542Vw" target="_fmjeILZ3Ee-bsckTw542Vw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_hDpuQ7Z3Ee-bsckTw542Vw" type="ControlFlow_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_hDpuRLZ3Ee-bsckTw542Vw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_hDpuRbZ3Ee-bsckTw542Vw" type="ControlFlow_WeightLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_hDpuRrZ3Ee-bsckTw542Vw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_hDpuR7Z3Ee-bsckTw542Vw" type="ControlFlow_GuardLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_hDpuSLZ3Ee-bsckTw542Vw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_hDpuSbZ3Ee-bsckTw542Vw" type="ControlFlow_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_hDpuSrZ3Ee-bsckTw542Vw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_hDpuQbZ3Ee-bsckTw542Vw"/>
+      <element xmi:type="uml:ControlFlow" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_hDdhALZ3Ee-bsckTw542Vw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_hDpuQrZ3Ee-bsckTw542Vw" points="[239, 319, 854, 162]$[231, 356, 846, 199]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hD9QQLZ3Ee-bsckTw542Vw" id="(0.4148148148148148,0.725)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hD9QQbZ3Ee-bsckTw542Vw" id="(0.4,0.45)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_hnaioLZ3Ee-bsckTw542Vw" type="ControlFlow_Edge" source="_THi_wLZ3Ee-bsckTw542Vw" target="_dAv5gLZ3Ee-bsckTw542Vw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_hnaio7Z3Ee-bsckTw542Vw" type="ControlFlow_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_h-saMLZ3Ee-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_hnaipLZ3Ee-bsckTw542Vw" x="-110" y="80"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_hnaipbZ3Ee-bsckTw542Vw" type="ControlFlow_WeightLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_h-3ZULZ3Ee-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_hnaiprZ3Ee-bsckTw542Vw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_hnaip7Z3Ee-bsckTw542Vw" type="ControlFlow_GuardLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_h_BxYLZ3Ee-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_hnaiqLZ3Ee-bsckTw542Vw" x="168" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_hnaiqbZ3Ee-bsckTw542Vw" type="ControlFlow_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_h_LiYLZ3Ee-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_hnaiqrZ3Ee-bsckTw542Vw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_hnaiobZ3Ee-bsckTw542Vw"/>
+      <element xmi:type="uml:ControlFlow" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_hnKrALZ3Ee-bsckTw542Vw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_hnaiorZ3Ee-bsckTw542Vw" points="[960, 1155, -643984, -643984]$[161, 1155, -643984, -643984]$[160, 1200, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hnuEoLZ3Ee-bsckTw542Vw" id="(0.1,0.6666666666666666)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hnuEobZ3Ee-bsckTw542Vw" id="(0.5128205128205128,0.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_jGehoLZ3Ee-bsckTw542Vw" type="ControlFlow_Edge" source="_dAv5gLZ3Ee-bsckTw542Vw" target="_elhe8LZ3Ee-bsckTw542Vw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_jGeho7Z3Ee-bsckTw542Vw" type="ControlFlow_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jGehpLZ3Ee-bsckTw542Vw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_jGehpbZ3Ee-bsckTw542Vw" type="ControlFlow_WeightLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jGehprZ3Ee-bsckTw542Vw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_jGehp7Z3Ee-bsckTw542Vw" type="ControlFlow_GuardLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jGehqLZ3Ee-bsckTw542Vw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_jGehqbZ3Ee-bsckTw542Vw" type="ControlFlow_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jGehqrZ3Ee-bsckTw542Vw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_jGehobZ3Ee-bsckTw542Vw"/>
+      <element xmi:type="uml:ControlFlow" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_jGS7cLZ3Ee-bsckTw542Vw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_jGehorZ3Ee-bsckTw542Vw" points="[11, 2, -517, 0]$[524, 2, -4, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jGz40LZ3Ee-bsckTw542Vw" id="(0.8717948717948718,0.45)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jGz40bZ3Ee-bsckTw542Vw" id="(0.044444444444444446,0.525)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_k5G84LZ3Ee-bsckTw542Vw" type="ControlFlow_Edge" source="_THi_wLZ3Ee-bsckTw542Vw" target="_2iUhMLZ1Ee-bsckTw542Vw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_k5G847Z3Ee-bsckTw542Vw" type="ControlFlow_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_nQec4LZ3Ee-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_k5G85LZ3Ee-bsckTw542Vw" x="-580" y="396"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_k5G85bZ3Ee-bsckTw542Vw" type="ControlFlow_WeightLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_nQqqILZ3Ee-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_k5Hj8LZ3Ee-bsckTw542Vw" x="1" y="19"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_k5Hj8bZ3Ee-bsckTw542Vw" type="ControlFlow_GuardLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_nQ2QULZ3Ee-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_k5Hj8rZ3Ee-bsckTw542Vw" x="265" y="18"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_k5Hj87Z3Ee-bsckTw542Vw" type="ControlFlow_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_nRABULZ3Ee-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_k5Hj9LZ3Ee-bsckTw542Vw" x="-1" y="-18"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_k5G84bZ3Ee-bsckTw542Vw"/>
+      <element xmi:type="uml:ControlFlow" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_k46IkLZ3Ee-bsckTw542Vw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_k5G84rZ3Ee-bsckTw542Vw" points="[960, 1155, -643984, -643984]$[360, 1100, -643984, -643984]$[340, 460, -643984, -643984]$[392, 380, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_k5bF8LZ3Ee-bsckTw542Vw" id="(0.0,0.4666666666666667)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_k5bF8bZ3Ee-bsckTw542Vw" id="(0.14285714285714285,1.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_3lN2sLZ3Ee-bsckTw542Vw" type="ControlFlow_Edge" source="_E9R5cLZ3Ee-bsckTw542Vw" target="_2bHQgLZ2Ee-bsckTw542Vw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_3lOdwLZ3Ee-bsckTw542Vw" type="ControlFlow_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_3lOdwbZ3Ee-bsckTw542Vw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_3lOdwrZ3Ee-bsckTw542Vw" type="ControlFlow_WeightLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_3lOdw7Z3Ee-bsckTw542Vw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_3lOdxLZ3Ee-bsckTw542Vw" type="ControlFlow_GuardLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_3lOdxbZ3Ee-bsckTw542Vw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_3lOdxrZ3Ee-bsckTw542Vw" type="ControlFlow_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_3lOdx7Z3Ee-bsckTw542Vw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_3lN2sbZ3Ee-bsckTw542Vw"/>
+      <element xmi:type="uml:ControlFlow" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_3lCQgLZ3Ee-bsckTw542Vw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_3lN2srZ3Ee-bsckTw542Vw" points="[0, 3, -171, -42]$[171, 33, 0, -12]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3lhYsLZ3Ee-bsckTw542Vw" id="(0.5,0.9)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3lhYsbZ3Ee-bsckTw542Vw" id="(0.20754716981132076,0.425)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_90byALZ3Ee-bsckTw542Vw" type="ControlFlow_Edge" source="_VBTooLZ1Ee-bsckTw542Vw" target="_elhe8LZ3Ee-bsckTw542Vw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_90byA7Z3Ee-bsckTw542Vw" type="ControlFlow_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_-RMmgLZ3Ee-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_90byBLZ3Ee-bsckTw542Vw" x="-171" y="19"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_90byBbZ3Ee-bsckTw542Vw" type="ControlFlow_WeightLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_-RXloLZ3Ee-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_90byBrZ3Ee-bsckTw542Vw" x="1" y="18"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_90byB7Z3Ee-bsckTw542Vw" type="ControlFlow_GuardLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_-Rh9sLZ3Ee-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_90byCLZ3Ee-bsckTw542Vw" x="26" y="-136"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_90byCbZ3Ee-bsckTw542Vw" type="ControlFlow_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_-RsVwLZ3Ee-bsckTw542Vw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_90byCrZ3Ee-bsckTw542Vw" y="-19"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_90byAbZ3Ee-bsckTw542Vw"/>
+      <element xmi:type="uml:ControlFlow" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_90Qy4LZ3Ee-bsckTw542Vw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_90byArZ3Ee-bsckTw542Vw" points="[964, 440, -643984, -643984]$[1080, 460, -643984, -643984]$[1080, 1200, -643984, -643984]$[1004, 1200, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_900zkLZ3Ee-bsckTw542Vw" id="(0.4489795918367347,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_900zkbZ3Ee-bsckTw542Vw" id="(0.7703703703703704,0.0)"/>
+    </edges>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_QNNgILZ4Ee-bsckTw542Vw" type="PapyrusUMLClassDiagram" name="Types" measurementUnit="Pixel">
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_QNNgIbZ4Ee-bsckTw542Vw" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_QNNgIrZ4Ee-bsckTw542Vw"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_QNNgI7Z4Ee-bsckTw542Vw" diagramKindId="org.eclipse.papyrus.sysml16.diagram.package">
+      <owner xmi:type="uml:Package" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_LsUH0LZ4Ee-bsckTw542Vw"/>
+    </styles>
+    <element xmi:type="uml:Package" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_LsUH0LZ4Ee-bsckTw542Vw"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_lAJjkLZ4Ee-bsckTw542Vw" type="PapyrusUMLClassDiagram" name="MoEs" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_luWtYLZ4Ee-bsckTw542Vw" type="Class_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_luXUcLZ4Ee-bsckTw542Vw" type="Class_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_luXUcbZ4Ee-bsckTw542Vw" type="Class_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_luXUcrZ4Ee-bsckTw542Vw" y="5"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_luXUc7Z4Ee-bsckTw542Vw" type="Class_AttributeCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_qnm7ULZ4Ee-bsckTw542Vw" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_qnhbwLZ4Ee-bsckTw542Vw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_qnm7UbZ4Ee-bsckTw542Vw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_sFLFgLZ4Ee-bsckTw542Vw" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_sFE-4LZ4Ee-bsckTw542Vw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_sFLFgbZ4Ee-bsckTw542Vw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_HNf9sLZ5Ee-bsckTw542Vw" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_HNcTULZ5Ee-bsckTw542Vw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_HNf9sbZ5Ee-bsckTw542Vw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_KGj1gLZ5Ee-bsckTw542Vw" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_KGe9ALZ5Ee-bsckTw542Vw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_KGj1gbZ5Ee-bsckTw542Vw"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_luXUdLZ4Ee-bsckTw542Vw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_luXUdbZ4Ee-bsckTw542Vw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_luXUdrZ4Ee-bsckTw542Vw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_luXUd7Z4Ee-bsckTw542Vw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_luXUeLZ4Ee-bsckTw542Vw" type="Class_OperationCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_luXUebZ4Ee-bsckTw542Vw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_luXUerZ4Ee-bsckTw542Vw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_luXUe7Z4Ee-bsckTw542Vw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_luXUfLZ4Ee-bsckTw542Vw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_luXUfbZ4Ee-bsckTw542Vw" type="Class_NestedClassifierCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_luXUfrZ4Ee-bsckTw542Vw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_luXUf7Z4Ee-bsckTw542Vw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_luXUgLZ4Ee-bsckTw542Vw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_luXUgbZ4Ee-bsckTw542Vw"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_lutSsLZ4Ee-bsckTw542Vw" type="StereotypeLabel">
+        <styles xmi:type="notation:StringValueStyle" xmi:id="_lutSsbZ4Ee-bsckTw542Vw" name="stereotype" stringValue="SysML::Blocks::Block"/>
+        <element xmi:type="uml:Stereotype" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks.stereotype_packagedElement_Block"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lutSsrZ4Ee-bsckTw542Vw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_lutSs7Z4Ee-bsckTw542Vw" type="StereotypeBrace">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_lutStLZ4Ee-bsckTw542Vw"/>
+        <styles xmi:type="notation:StringValueStyle" xmi:id="_lutStbZ4Ee-bsckTw542Vw" name="stereotype" stringValue="SysML::Blocks::Block"/>
+        <element xmi:type="uml:Stereotype" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks.stereotype_packagedElement_Block"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lutStrZ4Ee-bsckTw542Vw"/>
+      </children>
+      <children xmi:type="notation:Compartment" xmi:id="_lvFtMLZ4Ee-bsckTw542Vw" type="Flow Ports"/>
+      <children xmi:type="notation:Compartment" xmi:id="_lvFtMbZ4Ee-bsckTw542Vw" type="constraints"/>
+      <children xmi:type="notation:Compartment" xmi:id="_lvGUQLZ4Ee-bsckTw542Vw" type="Parts"/>
+      <children xmi:type="notation:Compartment" xmi:id="_lvGUQbZ4Ee-bsckTw542Vw" type="Proxy Ports"/>
+      <children xmi:type="notation:Compartment" xmi:id="_lvGUQrZ4Ee-bsckTw542Vw" type="Full Ports"/>
+      <children xmi:type="notation:Compartment" xmi:id="_lvGUQ7Z4Ee-bsckTw542Vw" type="References"/>
+      <children xmi:type="notation:Compartment" xmi:id="_lvGURLZ4Ee-bsckTw542Vw" type="Flow Properties"/>
+      <children xmi:type="notation:Compartment" xmi:id="_lvG7ULZ4Ee-bsckTw542Vw" type="Parameters"/>
+      <element xmi:type="uml:Class" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_luPYoLZ4Ee-bsckTw542Vw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_luWtYbZ4Ee-bsckTw542Vw" x="520" y="280"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_lvG7VLZ4Ee-bsckTw542Vw" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_lvG7VbZ4Ee-bsckTw542Vw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_lvG7V7Z4Ee-bsckTw542Vw" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Class" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_luPYoLZ4Ee-bsckTw542Vw"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lvG7VrZ4Ee-bsckTw542Vw" x="200"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_oz5iALZ4Ee-bsckTw542Vw" type="Class_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_oz5iArZ4Ee-bsckTw542Vw" type="Class_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_oz5iA7Z4Ee-bsckTw542Vw" type="Class_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_oz5iBLZ4Ee-bsckTw542Vw" y="5"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_oz6wILZ4Ee-bsckTw542Vw" type="Class_AttributeCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_oz6wIbZ4Ee-bsckTw542Vw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_oz6wIrZ4Ee-bsckTw542Vw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_oz6wI7Z4Ee-bsckTw542Vw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oz6wJLZ4Ee-bsckTw542Vw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_oz6wJbZ4Ee-bsckTw542Vw" type="Class_OperationCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_oz6wJrZ4Ee-bsckTw542Vw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_oz6wJ7Z4Ee-bsckTw542Vw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_oz6wKLZ4Ee-bsckTw542Vw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oz6wKbZ4Ee-bsckTw542Vw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_oz6wKrZ4Ee-bsckTw542Vw" type="Class_NestedClassifierCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_oz6wK7Z4Ee-bsckTw542Vw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_oz6wLLZ4Ee-bsckTw542Vw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_oz6wLbZ4Ee-bsckTw542Vw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oz6wLrZ4Ee-bsckTw542Vw"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_oz9zcLZ4Ee-bsckTw542Vw" type="StereotypeLabel">
+        <styles xmi:type="notation:StringValueStyle" xmi:id="_oz9zcbZ4Ee-bsckTw542Vw" name="stereotype" stringValue="SysML::Blocks::Block"/>
+        <element xmi:type="uml:Stereotype" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks.stereotype_packagedElement_Block"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oz9zcrZ4Ee-bsckTw542Vw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_oz9zc7Z4Ee-bsckTw542Vw" type="StereotypeBrace">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_oz9zdLZ4Ee-bsckTw542Vw"/>
+        <styles xmi:type="notation:StringValueStyle" xmi:id="_oz9zdbZ4Ee-bsckTw542Vw" name="stereotype" stringValue="SysML::Blocks::Block"/>
+        <element xmi:type="uml:Stereotype" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks.stereotype_packagedElement_Block"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oz9zdrZ4Ee-bsckTw542Vw"/>
+      </children>
+      <children xmi:type="notation:Compartment" xmi:id="_oz9zebZ4Ee-bsckTw542Vw" type="Flow Ports"/>
+      <children xmi:type="notation:Compartment" xmi:id="_oz-agLZ4Ee-bsckTw542Vw" type="constraints"/>
+      <children xmi:type="notation:Compartment" xmi:id="_oz-agbZ4Ee-bsckTw542Vw" type="Parts"/>
+      <children xmi:type="notation:Compartment" xmi:id="_oz-agrZ4Ee-bsckTw542Vw" type="Proxy Ports"/>
+      <children xmi:type="notation:Compartment" xmi:id="_oz-ag7Z4Ee-bsckTw542Vw" type="Full Ports"/>
+      <children xmi:type="notation:Compartment" xmi:id="_oz-ahLZ4Ee-bsckTw542Vw" type="References"/>
+      <children xmi:type="notation:Compartment" xmi:id="_oz-ahbZ4Ee-bsckTw542Vw" type="Flow Properties"/>
+      <children xmi:type="notation:Compartment" xmi:id="_oz-ahrZ4Ee-bsckTw542Vw" type="Parameters"/>
+      <element xmi:type="uml:Class" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_oz3FwLZ4Ee-bsckTw542Vw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oz5iAbZ4Ee-bsckTw542Vw" x="560" y="700"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_oz-airZ4Ee-bsckTw542Vw" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_oz-ai7Z4Ee-bsckTw542Vw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_oz-ajbZ4Ee-bsckTw542Vw" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Class" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_oz3FwLZ4Ee-bsckTw542Vw"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oz-ajLZ4Ee-bsckTw542Vw" x="200"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_lAJjkbZ4Ee-bsckTw542Vw" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_lAJjkrZ4Ee-bsckTw542Vw"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_lAJjk7Z4Ee-bsckTw542Vw" diagramKindId="org.eclipse.papyrus.sysml16.diagram.blockdefinition">
+      <owner xmi:type="uml:Package" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_JhKe4LZ4Ee-bsckTw542Vw"/>
+    </styles>
+    <element xmi:type="uml:Package" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_JhKe4LZ4Ee-bsckTw542Vw"/>
+    <edges xmi:type="notation:Connector" xmi:id="_lvG7WLZ4Ee-bsckTw542Vw" type="StereotypeCommentLink" source="_luWtYLZ4Ee-bsckTw542Vw" target="_lvG7VLZ4Ee-bsckTw542Vw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_lvG7WbZ4Ee-bsckTw542Vw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_lvG7XbZ4Ee-bsckTw542Vw" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Class" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_luPYoLZ4Ee-bsckTw542Vw"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_lvG7WrZ4Ee-bsckTw542Vw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lvG7W7Z4Ee-bsckTw542Vw"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lvG7XLZ4Ee-bsckTw542Vw"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_oz-ajrZ4Ee-bsckTw542Vw" type="StereotypeCommentLink" source="_oz5iALZ4Ee-bsckTw542Vw" target="_oz-airZ4Ee-bsckTw542Vw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_oz-aj7Z4Ee-bsckTw542Vw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_oz-ak7Z4Ee-bsckTw542Vw" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Class" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_oz3FwLZ4Ee-bsckTw542Vw"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_oz-akLZ4Ee-bsckTw542Vw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_oz-akbZ4Ee-bsckTw542Vw"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_oz-akrZ4Ee-bsckTw542Vw"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_l7lboLZ5Ee-bsckTw542Vw" type="Generalization_Edge" source="_oz5iALZ4Ee-bsckTw542Vw" target="_luWtYLZ4Ee-bsckTw542Vw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_l7lbo7Z5Ee-bsckTw542Vw" type="Generalization_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_l7lbpLZ5Ee-bsckTw542Vw" y="40"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_l7lbobZ5Ee-bsckTw542Vw"/>
+      <element xmi:type="uml:Generalization" href="Smart%20Ligthing%20and%20Heating%20Systems.uml#_l7gjILZ5Ee-bsckTw542Vw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_l7lborZ5Ee-bsckTw542Vw" points="[640, 700, -643984, -643984]$[620, 494, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_l77Z4LZ5Ee-bsckTw542Vw" id="(0.5128205128205128,0.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_l77Z4bZ5Ee-bsckTw542Vw" id="(0.45871559633027525,1.0)"/>
+    </edges>
+  </notation:Diagram>
+</xmi:XMI>
