@@ -15,7 +15,11 @@
 #define VERIFY_DATA_PERIOD 35
 #define VERIFY_DATA_EXECUTION 10
 #define SERVER_PERIOD 40
-#define SERVER_CAPACITY 6
+#define SERVER_DATA_EXECUTION 6
+#define MQTT_PERIOD 70
+#define MQTT_EXECUTION 10
+#define SENSOR_VERIFICATION_PERIOD 100
+#define SENSOR_VERIFICATION_EXECUTION 15
 
 // priorities
 #define VERIFY_DATA_PRIORITY 5
@@ -32,6 +36,10 @@ const char *mqtt_server = "ssl://e75ba1e7000741ea8a244cfdd6af41cd.s1.eu.hivemq.c
 const char *mqtt_username = "Arduino";
 const char *mqtt_password = "lalala99";
 
+//Light and Temperature BUFFER
+#define LIGHT_BUFFER 300
+#define TEMP_BUFFER 1
+
 MQTTClient mqtt_client;
 MQTTClient_connectOptions conn_opts = MQTTClient_connectOptions_initializer;
 MQTTClient_SSLOptions ssl_opts = MQTTClient_SSLOptions_initializer;
@@ -42,6 +50,7 @@ struct SharedData
     float temperature;
     int light_level;
     pthread_mutex_t data_mutex;
+    pthread_mutex_t mqtt_mutex;
     int client_sock;
     int light_preference;
     float temp_preference;
@@ -127,6 +136,37 @@ void *verify_data_task(void *arg)
     }
     return NULL;
 }
+char *alertPayload(char *alert)
+{
+    //printf("Sending alert: %s\n\n", alert);
+    // Variables for time
+    time_t currentTime;
+    struct tm *timeInfo;
+    char timeString[30]; // Buffer for formatted time
+
+    // Get the current time and format it as ISO 8601
+    time(&currentTime);
+    timeInfo = gmtime(&currentTime);
+    strftime(timeString, sizeof(timeString), "%Y-%m-%dT%H:%M:%SZ", timeInfo);
+
+    // Define the location
+    const char *location = "Porto";
+
+    // Allocate memory for the payload
+    char *payload = (char *)malloc(512);
+    if (payload == NULL)
+    {
+        fprintf(stderr, "Memory allocation failed\n");
+        return NULL;
+    }
+
+    // Construct the JSON-like payload
+    snprintf(payload, 512,
+             "{ \"id\": \"%s_%ld\", \"dateObserved\": \"%s\", \"location\": \"%s\", \"alert\": \"%s\" }",
+             location, currentTime, timeString, location, alert);
+
+    return payload;
+}
 
 void *command_server_task(void *arg)
 {
@@ -145,37 +185,65 @@ void *command_server_task(void *arg)
 
         pthread_mutex_lock(&system_state.state_mutex);
 
-        // Blinds control
-        if (light < shared_data.light_preference + 1000 && system_state.blinds_state != 0)
-        {
-            send(shared_data.client_sock, "BLINDS_OPEN\n", strlen("BLINDS_OPEN\n"), 0);
-            printf("Sent command: BLINDS_OPEN\n");
-            system_state.blinds_state = 0;
-            sendAlertToMQTT("/comcs/g12012/alerts", "Blinds are opening!");
-        }
-        else if (light >= shared_data.light_preference + 1000 && system_state.blinds_state != 1)
-        {
-            send(shared_data.client_sock, "BLINDS_CLOSE\n", strlen("BLINDS_CLOSE\n"), 0);
-            printf("Sent command: BLINDS_CLOSE\n");
-            system_state.blinds_state = 1;
-            sendAlertToMQTT("/comcs/g12012/alerts", "Blinds are closing!");
-        }
-
         // Lights control
-        if (light < shared_data.light_preference && system_state.lights_state != 1)
+        if (light < shared_data.light_preference && system_state.lights_state != 1 && system_state.blinds_state == 2)
         {
             send(shared_data.client_sock, "LIGHT_ON\n", strlen("LIGHT_ON\n"), 0);
             printf("Sent command: LIGHT_ON\n");
             system_state.lights_state = 1;
-            sendAlertToMQTT("/comcs/g12012/alerts", "Lights are on!");
+            char *payload = alertPayload("Lights are on!");
+            sendAlertToMQTT("/comcs/g12012/alerts", payload);
+            free(payload);
         }
-        else if (light >= shared_data.light_preference && system_state.lights_state != 0)
+        else if (light >= shared_data.light_preference + LIGHT_BUFFER && system_state.lights_state != 0 && system_state.blinds_state == 2)
         {
             send(shared_data.client_sock, "LIGHT_OFF\n", strlen("LIGHT_OFF\n"), 0);
             printf("Sent command: LIGHT_OFF\n");
             system_state.lights_state = 0;
-            sendAlertToMQTT("/comcs/g12012/alerts", "Lights are off!");
+            char *payload = alertPayload("Lights are off!");
+            sendAlertToMQTT("/comcs/g12012/alerts", payload);
+            free(payload);
         }
+
+        // Blinds control
+        if (light < shared_data.light_preference && system_state.blinds_state == 1)
+        {
+            send(shared_data.client_sock, "BLINDS_OPEN\n", strlen("BLINDS_OPEN\n"), 0);
+            printf("Sent command: BLINDS_OPEN\n");
+            system_state.blinds_state = 2;
+            char *payload = alertPayload("Blinds are fully opened!");
+            sendAlertToMQTT("/comcs/g12012/alerts", payload);
+            free(payload);
+        }
+        else if (light < shared_data.light_preference && system_state.blinds_state == 0)
+        {
+            send(shared_data.client_sock, "BLINDS_HALF_OPEN\n", strlen("BLINDS_HALF_OPEN\n"), 0);
+            printf("Sent command: BLINDS_HALF_OPEN\n");
+            system_state.blinds_state = 1;
+            char *payload = alertPayload("Blinds are half opened!");
+            sendAlertToMQTT("/comcs/g12012/alerts", payload);
+            free(payload);
+        }
+        else if (light >= shared_data.light_preference && system_state.blinds_state == 2 && system_state.lights_state == 0)
+        {
+            send(shared_data.client_sock, "BLINDS_HALF_CLOSE\n", strlen("BLINDS_HALF_CLOSE\n"), 0);
+            printf("Sent command: BLINDS_HALF_CLOSE\n");
+            system_state.blinds_state = 1;
+            char *payload = alertPayload("Blinds are half closed!");
+            sendAlertToMQTT("/comcs/g12012/alerts", payload);
+            free(payload);
+            
+        }
+        else if (light >= shared_data.light_preference && system_state.blinds_state == 1 && system_state.lights_state == 0)
+        {
+            send(shared_data.client_sock, "BLINDS_CLOSE\n", strlen("BLINDS_CLOSE\n"), 0);
+            printf("Sent command: BLINDS_CLOSE\n");
+            system_state.blinds_state = 0;
+            char *payload = alertPayload("Blinds are closed!");
+            sendAlertToMQTT("/comcs/g12012/alerts", payload);
+            free(payload);
+        }
+        
 
         // Heater control
         if (temp < shared_data.temp_preference && system_state.heater_state != 1)
@@ -183,14 +251,18 @@ void *command_server_task(void *arg)
             send(shared_data.client_sock, "HEATER_ON\n", strlen("HEATER_ON\n"), 0);
             printf("Sent command: HEATER_ON\n");
             system_state.heater_state = 1;
-            sendAlertToMQTT("/comcs/g12012/alerts", "Heater is on!");
+            char *payload = alertPayload("Heater is on!");
+            sendAlertToMQTT("/comcs/g12012/alerts", payload);
+            free(payload);
         }
-        else if (temp >= shared_data.temp_preference && system_state.heater_state != 0)
+        else if (temp >= shared_data.temp_preference + TEMP_BUFFER && system_state.heater_state != 0)
         {
             send(shared_data.client_sock, "HEATER_OFF\n", strlen("HEATER_OFF\n"), 0);
             printf("Sent command: HEATER_OFF\n");
             system_state.heater_state = 0;
-            sendAlertToMQTT("/comcs/g12012/alerts", "Heater is off!");
+            char *payload = alertPayload("Heater is off!");
+            sendAlertToMQTT("/comcs/g12012/alerts", payload);
+            free(payload);
         }
 
         pthread_mutex_unlock(&system_state.state_mutex);
@@ -198,9 +270,9 @@ void *command_server_task(void *arg)
         clock_gettime(CLOCK_MONOTONIC, &end);
         long elapsed_us = (end.tv_sec - start.tv_sec) * 1000000 +
                           (end.tv_nsec - start.tv_nsec) / 1000;
-        if (elapsed_us < SERVER_CAPACITY * 1000)
+        if (elapsed_us < SERVER_DATA_EXECUTION * 1000)
         {
-            usleep(SERVER_CAPACITY * 1000 - elapsed_us);
+            usleep(SERVER_DATA_EXECUTION * 1000 - elapsed_us);
         }
 
         add_ms_to_timespec(&next_period, SERVER_PERIOD);
@@ -245,6 +317,8 @@ char *toSmartData(float temp, float humid)
     return payload;
 }
 
+
+
 void sendAlertToMQTT(const char *topic, const char *message)
 {
     MQTTClient_message pubmsg = MQTTClient_message_initializer;
@@ -259,6 +333,8 @@ void sendAlertToMQTT(const char *topic, const char *message)
     }
 }
 
+
+
 int messageArrived(void *context, char *topicName, int topicLen, MQTTClient_message *message)
 {
     (void)context;  // Suppress unused parameter warning
@@ -266,16 +342,16 @@ int messageArrived(void *context, char *topicName, int topicLen, MQTTClient_mess
 
     if (strcmp(topicName, "/comcs/g12012/tempPreference") == 0)
     {
-        pthread_mutex_lock(&shared_data.data_mutex);
+        pthread_mutex_lock(&shared_data.mqtt_mutex);
         shared_data.temp_preference = atof((char *)message->payload);
-        pthread_mutex_unlock(&shared_data.data_mutex);
+        pthread_mutex_unlock(&shared_data.mqtt_mutex);
         printf("Temperature preference has changed to ->  %.1f\n", shared_data.temp_preference);
     }
     else if (strcmp(topicName, "/comcs/g12012/lumPreference") == 0)
     {
-        pthread_mutex_lock(&shared_data.data_mutex);
+        pthread_mutex_lock(&shared_data.mqtt_mutex);
         shared_data.light_preference = atoi((char *)message->payload);
-        pthread_mutex_unlock(&shared_data.data_mutex);
+        pthread_mutex_unlock(&shared_data.mqtt_mutex);
         printf("Light preference has changed to -> %d\n", shared_data.light_preference);
     }
 
@@ -297,8 +373,14 @@ void *preference_detection_task(void *arg)
 void *mqtt_task(void *arg)
 {
     (void)arg; // Suppress unused parameter warning
+    struct timespec next_period;
+    clock_gettime(CLOCK_MONOTONIC, &next_period);
+
     while (1)
     {
+        struct timespec start, end;
+        clock_gettime(CLOCK_MONOTONIC, &start);
+
         pthread_mutex_lock(&shared_data.data_mutex);
         float temp = shared_data.temperature;
         int light = shared_data.light_level;
@@ -310,15 +392,31 @@ void *mqtt_task(void *arg)
             sendAlertToMQTT("/comcs/g12012/data", payload);
             free(payload);
         }
-        usleep(5000000);
+
+        clock_gettime(CLOCK_MONOTONIC, &end);
+        long elapsed_us = (end.tv_sec - start.tv_sec) * 1000000 +
+                          (end.tv_nsec - start.tv_nsec) / 1000;
+        if (elapsed_us < MQTT_EXECUTION * 1000)
+        {
+            usleep(MQTT_EXECUTION * 1000 - elapsed_us);
+        }
+
+        add_ms_to_timespec(&next_period, MQTT_PERIOD);
+        clock_nanosleep(CLOCK_MONOTONIC, TIMER_ABSTIME, &next_period, NULL);
     }
     return NULL;
 }
 void sensor_verification_task(void *arg)
 {
     (void)arg; // Suppress unused parameter warning
+    struct timespec next_period;
+    clock_gettime(CLOCK_MONOTONIC, &next_period);
+
     while (1)
     {
+        struct timespec start, end;
+        clock_gettime(CLOCK_MONOTONIC, &start);
+
         // verify if the current and the previous temperatures have significant difference
         pthread_mutex_lock(&shared_data.data_mutex);
 
@@ -334,7 +432,17 @@ void sensor_verification_task(void *arg)
 
         pthread_mutex_unlock(&shared_data.data_mutex);
 
-        usleep(5000000);
+        clock_gettime(CLOCK_MONOTONIC, &end);
+        long elapsed_us = (end.tv_sec - start.tv_sec) * 1000000 +
+                          (end.tv_nsec - start.tv_nsec) / 1000;
+
+        if (elapsed_us < SENSOR_VERIFICATION_EXECUTION * 1000)
+        {
+            usleep(SENSOR_VERIFICATION_EXECUTION * 1000 - elapsed_us);
+        }
+
+        add_ms_to_timespec(&next_period, SENSOR_VERIFICATION_PERIOD);
+        clock_nanosleep(CLOCK_MONOTONIC, TIMER_ABSTIME, &next_period, NULL);
     }
     return NULL;
 }
@@ -389,6 +497,7 @@ int main()
 
     pthread_mutex_init(&shared_data.data_mutex, NULL);
     pthread_mutex_init(&system_state.state_mutex, NULL);
+    pthread_mutex_init(&shared_data.mqtt_mutex, NULL);
 
     system_state.blinds_state = 0;
     system_state.lights_state = 0;
@@ -447,6 +556,7 @@ int main()
     close(server_sock);
     pthread_mutex_destroy(&shared_data.data_mutex);
     pthread_mutex_destroy(&system_state.state_mutex);
+    pthread_mutex_destroy(&shared_data.mqtt_mutex);
 
     MQTTClient_disconnect(mqtt_client, TIMEOUT);
     MQTTClient_destroy(&mqtt_client);
