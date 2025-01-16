@@ -10,8 +10,14 @@
 const char *ssid = "NOS-17A6";
 const char *password = "WPSN47JG";
 
+//const char *ssid = "MEO-CASA";
+//const char *password = "229823683";
+
+//const char *ssid = "IoTDEI2";
+//const char *password = "#8tud3nt2024";
+
 // Server details
-const char *server_ip = "192.168.1.5";
+const char *server_ip = "192.168.1.8";
 const int server_port = 8080;
 
 // DHT sensor configuration
@@ -32,11 +38,16 @@ Servo blindsServo;
 
 // Task periods (in milliseconds)
 #define READ_DATA_PERIOD 20
-#define SEND_DATA_PERIOD 30
+#define SEND_DATA_PERIOD 3000
 
-// Task priorities (higher number = higher priority)
-#define READ_DATA_PRIORITY 2
-#define SEND_DATA_PRIORITY 1
+// Tasks priorities (Since both tasks run on different cores the priority is the same)
+#define PRIORITY 1
+
+//Register for Lights
+#define GPIO_OUT_REG 0x3FF44004
+#define GPIO_OUT_W1TS_REG 0x3FF44008  // Register to set GPIO pins high
+#define GPIO_OUT_W1TC_REG 0x3FF4400C  // Register to set GPIO pins low
+
 
 // Struct for sensor data
 struct SensorData {
@@ -75,6 +86,40 @@ void lightOffAssembly() {
   );
 }
 
+// Optimized assembly function for GPIO control
+// Parameter: state (1 for on, 0 for off)
+void lightControlAssembly(bool state) {
+    asm volatile (
+        // Load appropriate register address based on state
+        "movi    a2, %[set_reg]\n"      // Load GPIO SET register address
+        "movi    a3, %[clear_reg]\n"    // Load GPIO CLEAR register address
+        "mov     a4, %[state]\n"        // Load state parameter
+        
+        // Prepare GPIO mask (1 << 5 for GPIO5)
+        "movi    a5, 1\n"               // Load 1
+        "slli    a5, a5, 5\n"           // Shift to create mask for GPIO5
+        
+        // Choose between set and clear based on state
+        "beqz    a4, clear\n"           // If state is 0, jump to clear
+        
+        // Set GPIO high
+        "s32i    a5, a2, 0\n"           // Write to SET register
+        "j       done\n"
+        
+        // Set GPIO low
+        "clear:\n"
+        "s32i    a5, a3, 0\n"           // Write to CLEAR register
+        
+        "done:\n"
+        
+        : // no outputs
+        : [state] "r" (state),
+          [set_reg] "i" (GPIO_OUT_W1TS_REG),    // GPIO SET register
+          [clear_reg] "i" (GPIO_OUT_W1TC_REG)    // GPIO CLEAR register
+        : "a2", "a3", "a4", "a5", "memory"
+    );
+}
+
 
 // Function to handle commands from server
 void handleCommand(String command) {
@@ -84,12 +129,24 @@ void handleCommand(String command) {
         digitalWrite(HEATERPIN, LOW);
     } else if (command == "LIGHT_ON\n") {
         //digitalWrite(LIGHTPIN, HIGH);
-        lightOnAssembly();
+        //lightOnAssembly();
+        lightControlAssembly(1);
     } else if (command == "LIGHT_OFF\n") {
         //digitalWrite(LIGHTPIN, LOW);
-        lightOffAssembly();
+        //lightOffAssembly();
+        lightControlAssembly(0);
     } else if (command == "BLINDS_OPEN\n") {
+        for (int pos = 180; pos <= 360; pos++) {
+            blindsServo.write(pos);
+            vTaskDelay(pdMS_TO_TICKS(15));
+        }
+    } else if (command == "BLINDS_HALF_OPEN\n") {
         for (int pos = 0; pos <= 180; pos++) {
+            blindsServo.write(pos);
+            vTaskDelay(pdMS_TO_TICKS(15));
+        }
+    } else if (command == "BLINDS_HALF_CLOSE\n") {
+        for (int pos = 360; pos >= 180; pos--) {
             blindsServo.write(pos);
             vTaskDelay(pdMS_TO_TICKS(15));
         }
@@ -125,8 +182,8 @@ void readDataTask(void *parameter) {
         }
 
         // Calculate execution time
-        unsigned long executionTime = micros() - startTime;
-        Serial.printf("Read Task Execution Time: %lu microseconds\n", executionTime);
+        //unsigned long executionTime = micros() - startTime;
+        //Serial.printf("Read Task Execution Time: %lu microseconds\n", executionTime);
 
         // Wait for next period
         vTaskDelayUntil(&xLastWakeTime, xPeriod);
@@ -140,7 +197,7 @@ void sendDataTask(void *parameter) {
 
     while (1) {
         // Record start time
-        unsigned long startTime = micros();
+        unsigned long startTime = micros(); 
 
         if (client.connected()) {
             // Get sensor data with mutex protection
@@ -166,8 +223,8 @@ void sendDataTask(void *parameter) {
         }
 
         // Calculate execution time
-        unsigned long executionTime = micros() - startTime;
-        Serial.printf("Send Task Execution Time: %lu microseconds\n", executionTime);
+       // unsigned long executionTime = micros() - startTime;
+        //Serial.printf("Send Task Execution Time: %lu microseconds\n", executionTime);
 
         // Wait for next period
         vTaskDelayUntil(&xLastWakeTime, xPeriod);
@@ -212,7 +269,7 @@ void setup() {
         "ReadDataTask",             // Name
         4096,                       // Stack size
         NULL,                       // Parameters
-        READ_DATA_PRIORITY,         // Priority
+        PRIORITY,
         NULL,                       // Task handle
         1                          // Core ID (1 = secondary core)
     );
@@ -222,9 +279,9 @@ void setup() {
         "SendDataTask",            // Name
         4096,                      // Stack size
         NULL,                      // Parameters
-        SEND_DATA_PRIORITY,        // Priority
+        PRIORITY,
         NULL,                      // Task handle
-        1                         // Core ID (1 = secondary core)
+        0                         // Core ID (0 = primary core)
     );
 }
 
